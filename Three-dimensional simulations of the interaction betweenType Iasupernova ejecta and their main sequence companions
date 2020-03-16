@@ -1,0 +1,108 @@
+TERMINOLOGY:
+SNe 1a has no hydrogen lines
+
+ejecta: material that is thrown out during an explosion
+
+donor star: star in which matter is accreted fro
+
+subgiant: star that is brighter than MS but not as bright as giant stars, lies in between the two on a HR diagram (IV)
+
+Nova: H accreted and the hot WD heats it up leading to fusion
+
+cataclysmic variable stars: stars with a luminosity that increases irregularly and by a significant amount before decreasing
+
+transient events: an astronomical event that lasts seconds, days or years as opposed to millions/ billions of year - 
+essentially quick events
+
+accretion induced collapse of white dwarf: when a WD accretes matter, nuclear reactions occur near the core and WD 
+collapses into neutron star
+
+white dwarf= degenerate dwarf
+
+circumstellar: revolving around or surrounding a star
+
+overshooting parameter: when convection pushes matter into a stable region but because the matter has momentum it goes further
+than it should
+
+dynamcially stable: matter accretion is at a rate allowing for there to be no formation of common envelope
+roche lobe- teardrop shape around a binary system by which anything within will be gravitationally bound
+
+roche lobe overflow- when there is too much matter in the roche lobe and some of it starts overflowing onto the more 
+massive member of the binary system, can be via accretion
+
+common envelope: gas surrounding binary system, when mass transfer is too quick, you get a common envelope which
+causes the orbital seperation to decay due to drag forces leading to either a merger or envelope ejection
+
+
+PURPOSE OF PAPER?
+
+    We dont know whether type1a supernovae are single degenerate or double degenerate
+    describes the results of a simulation of type 1a supernovae where the donor star is modeled more realistically
+    to conduct the simulation, eggleton stellar evolution code was used
+
+
+WHAT MADE THE SIMULATION MORE REALISTIC?
+
+    optically thick accretion wind model: model that has strong winds blowing off some matter to allow 
+    for stable mass transfer and allow for the birthrates of SNe 1a from simulations to match observations 
+    
+    took into account accretion disk instabilities (fragmentation of the disk?)
+    
+    3D hydrodynamic simulation, using smooth particle hydrodynamics code GADGET3
+
+SMOOTH PARTICLE HYDRODYNAMICS?
+numerical method that is Mesh free and Lagrangian, assumes du/dt doesnt = 0
+
+RESULTS?
+
+    kick velocity (how fast the ejecta is moving due to explosion?) and stripped mass depend on the the ratio of orbital separation and companion radius
+    amount of material stripped depends on structure of companion
+
+
+SD VS DD
+
+    SD, companion is either MS star, slightly evolved sub giant star, or red giant. WD accretes until chandra limit, explodes. 
+    companion survives, which can make the explosion look different
+    
+    DD, two carbon oxygen white dwarves spiral in and merge, chandra limit exceeded, explosion, no survivors
+    
+    SD senario can also turn into a novae (premature explosion?), but to avoid this, accretion rate must be above 10-7 solar masses/year
+    so that you can get stable hydrogen burning on the surface
+    
+    In novae,  H accreted and the hot WD heats it up leading to fusion
+    
+    DD binary systems observed, but a lot of them are too far away for them to merge within the hubble time,
+    the ones that are close enough dont have a combined mass exceeding chandra limit. its suggested that DD channel 
+    should lead to accretion induced collapse instead of supernovae
+    
+    recent studies showed equal mass WD can give supernovae with qualities like those observed in real life
+
+
+to find out if SD OR DD was the correct model, people looked for surviving companions after a SN explosion, 
+after one of the explosions, they found a star travelling 3x faster than all neighboring stars
+around the area of the supernova, so this makes us think SD may be the correct model
+
+They did it for another SN 1a, found no stars that could be seen, so SD might not be the only channel
+
+also, type 1a supernovae have no hydrogen lines, constrains SD such that there shouldnt be much hydrogen acretion. 
+DD fits this observation as long as you have CO WD
+
+simulations of SD senario using 3d smooth particle hydrodynamics were done on the amount of mass stripped from companion, 
+found that the stripped mass agrees with observations of survivors, but oversimplified the mass transfer process as it
+happening at a constant rate and only using 1D code- this is what the paper aims to improve
+
+other studies showed that disk instabilities increase accretion efficiency substantially
+
+smooth particle hydrodynamics in 3d for GADGET code correctly predicts dynamical effects of SNe 1a, 
+shown through comparison with 2D hydrodynamic eulerian simulation which has similarities
+
+numerical noise can be a problem when trying to get a system in hydrostatic equilibrium,
+mitigated by allowing the system to relax for a few dynamic timescales
+
+
+
+
+
+
+
+
