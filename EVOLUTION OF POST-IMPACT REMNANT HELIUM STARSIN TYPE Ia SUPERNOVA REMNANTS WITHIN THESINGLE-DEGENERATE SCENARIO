@@ -8,5 +8,31 @@ PIRS: post impact reminant star
 
 subdwarf: star that is between the main sequence and white dward regions on HR diagrams
 
+M-dwarf: M type main sequence star
+
+shock: a disturbance that propagates faster than sound speed in the medium in question
+
+subgiant: star that is brighter than the MS star (of same spectral class) but not as bright as giant stars 
+
+
 WHAT DOES THE PAPER ACCOMPLISH?
+they found that helium rich stars expand out and increase in brightness, 10 years after the explosion
+
+then they contract into a hot blue subdwarf like star before turning into a helium red giant
+
+A helium companion star should therefore be seen 30 years after the SN explosion within the SN reminant, fast rotating,
+high spactial velcity 
+
+Introduction notes:
+
+previous studies have been done on MS and sub giant stars- conclusion is that as energy is deposited into the companions
+they will be hotter for some time BUT
+they didnt do hydrodynamical simulations and so didnt properly calculate shock compression of stellar interior
+or how far in the energy from the supernova was deposited into the companion star
+
+What do hydrodynamical simulations achieve?
+they take into account symmetry breaking effects of orbital motion, rotation of the star, and RLOF which can complicate 
+how the explosion happens
+
+by taking these into account, pan et al corrected the previous studies and found that 
 
