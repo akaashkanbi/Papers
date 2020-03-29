@@ -14,6 +14,16 @@ shock: a disturbance that propagates faster than sound speed in the medium in qu
 
 subgiant: star that is brighter than the MS star (of same spectral class) but not as bright as giant stars 
 
+SN1ax: supernovae via the HeWD channel (He accreted by a WD) either a helium double detonation explosion or CO He WD merger
+SURVIVING WD-called a zombie star
+
+Double detonations: when He is ignited in the He shell of the white dwarf, causing the supernova to occur before Chandra mass
+has been reached- less luminous explosion link:
+https://aasnova.org/2019/03/29/a-rare-double-detonation-supernova-caught-in-the-act/
+
+Delay-time-distribution (DTD): distribution of how long it takes for SN1a to occur since stellar birth
+https://iopscience.iop.org/article/10.1086/591646/fulltext/22918.text.html 
+
 
 WHAT DOES THE PAPER ACCOMPLISH?
 they found that helium rich stars expand out and increase in brightness, 10 years after the explosion
@@ -34,5 +44,6 @@ What do hydrodynamical simulations achieve?
 they take into account symmetry breaking effects of orbital motion, rotation of the star, and RLOF which can complicate 
 how the explosion happens
 
-by taking these into account, pan et al corrected the previous studies and found that 
+by taking these into account, pan et al corrected the previous studies and found that MS companions subgiants with higher
+luminosity with slow rotation BUT they predicted tycho G to be twice as bright as it is.
 
