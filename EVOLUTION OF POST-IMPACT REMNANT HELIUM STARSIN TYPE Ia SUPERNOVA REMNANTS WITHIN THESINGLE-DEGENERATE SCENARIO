@@ -1,7 +1,7 @@
 https://arxiv.org/pdf/1303.1228.pdf
 
 TERMINOLOGY
-helium star: O or B star with strong He lines,weak H lines because outer envelope has been stripped off by stellar winds from
+helium star: O or B star with strong He lines,weak H lines because outer envelope has been stripped off by strong stellar winds from
 the interior of the star
 
 PIRS: post impact reminant star
@@ -14,8 +14,9 @@ shock: a disturbance that propagates faster than sound speed in the medium in qu
 
 subgiant: star that is brighter than the MS star (of same spectral class) but not as bright as giant stars 
 
-SN1ax: supernovae via the HeWD channel (He accreted by a WD) either a helium double detonation explosion or CO He WD merger
-SURVIVING WD-called a zombie star
+SN1ax: supernovae via the HeWD channel (He accreted by a WD from He star) either a helium double detonation explosion 
+or CO He WD merger
+SURVIVING WD- called a zombie star
 
 Double detonations: when He is ignited in the He shell of the white dwarf, causing the supernova to occur before Chandra mass
 has been reached- less luminous explosion link:
@@ -31,7 +32,16 @@ they found that helium rich stars expand out and increase in brightness, 10 year
 then they contract into a hot blue subdwarf like star before turning into a helium red giant
 
 A helium companion star should therefore be seen 30 years after the SN explosion within the SN reminant, fast rotating,
-high spactial velcity 
+high spactial velcity (account for some of the unbounded Hypervelocity stars in our galaxy after doing population synethesis 
+calculations)
+
+hydrosimulations done on 4 He star progenitor models (using FLASH version 3) with different initial masses (1.25, 1.35, 1.4, 1.8
+Solar masses, metallicity initally at 0.02, which means 2% of star is not hydrogen or Helium)
+He WD channel leaving behind a high velocity 
+He subdwarf could explain the number of observed single He subdwarfs 
+
+
+
 
 Introduction notes:
 
@@ -46,4 +56,23 @@ how the explosion happens
 
 by taking these into account, pan et al corrected the previous studies and found that MS companions subgiants with higher
 luminosity with slow rotation BUT they predicted tycho G to be twice as bright as it is.
+
+He star in SN1ax lose less mass than RG WD or MS WD channel (<5%), also has a smaller time delay (because explosion occurs 
+before chandrasekhar mass?)
+
+
+NUMERICAL CODES AND METHODS 
+
+IMPORTANT: we cannot say that the He star is behaving as an ideal gas nor can we say that the adiabatic exponent is 5/3
+as the central density and temp are much higher than MS like stars --------???? as long as V_coloumb<<kT isn't it alright?
+
+therefore they update the EOS (equation of state solver) to include the OPAL, SCVH, 
+and HELM EOS tables from the eos and kap modules in MESA 
+
+uniform composition isn't assumed, but massloss rate is assumed to be constant (artificial assumption, but it allows for
+the final masses to fit with detailed binary evolution models by Wang et al 2009, kind of like caring only what happens at
+the end)
+
+
+
 
