@@ -25,9 +25,12 @@ https://aasnova.org/2019/03/29/a-rare-double-detonation-supernova-caught-in-the-
 Delay-time-distribution (DTD): distribution of how long it takes for SN1a to occur since stellar birth
 https://iopscience.iop.org/article/10.1086/591646/fulltext/22918.text.html 
 
+------------------------------------------------------
 
 WHAT DOES THE PAPER ACCOMPLISH?
 they found that helium rich stars expand out and increase in brightness, 10 years after the explosion
+
+radius increases but mass is lost by the companion
 
 then they contract into a hot blue subdwarf like star before turning into a helium red giant
 
@@ -40,7 +43,13 @@ Solar masses, metallicity initally at 0.02, which means 2% of star is not hydrog
 He WD channel leaving behind a high velocity 
 He subdwarf could explain the number of observed single He subdwarfs 
 
+carbon deflagration: just means carbon detonation
 
+W7 model: looks like the carbon deflagation model with a power law density distribution, and constant temperature
+distribution in radius? what does this really mean?
+https://ui.adsabs.harvard.edu/abs/1984ApJ...286..644N/abstract
+
+------------------------------------------------------------------
 
 
 Introduction notes:
@@ -59,7 +68,7 @@ luminosity with slow rotation BUT they predicted tycho G to be twice as bright a
 
 He star in SN1ax lose less mass than RG WD or MS WD channel (<5%), also has a smaller time delay (because explosion occurs 
 before chandrasekhar mass?)
-
+--------------------------------------------------------------
 
 NUMERICAL CODES AND METHODS 
 
@@ -67,11 +76,41 @@ IMPORTANT: we cannot say that the He star is behaving as an ideal gas nor can we
 as the central density and temp are much higher than MS like stars --------???? as long as V_coloumb<<kT isn't it alright?
 
 therefore they update the EOS (equation of state solver) to include the OPAL, SCVH, 
-and HELM EOS tables from the eos and kap modules in MESA 
-
+and HELM EOS tables from the eos and kap(descrives opacity, dependent on temperature, chemical composition etc) modules
+in MESA 
+-------------------------------
+BEFORE EXPLOSION
 uniform composition isn't assumed, but massloss rate is assumed to be constant (artificial assumption, but it allows for
 the final masses to fit with detailed binary evolution models by Wang et al 2009, kind of like caring only what happens at
 the end)
+massloss done in 1D 
+
+HeWDa had a uniform composition distribution before explosion to ensure they didnt get negative entropy gradients or negative
+composition gradients-----why is negative entropy gradients bad? 
+--------------------------------
+
+DURING EXPLOSION
+converted code into 3D and allowed system to relax for 5 dynamical timescales by damping particle velocity 
+to get everything back into hydrostatic equilibrium
+
+W7 model of the SN was used first so that comparisons could be made with other studies
+
+
+
+AFTER EXPLOSION
+
+initial luminosity profile found by using the temperature gradient, substituting fux for luminosity
+relaxation in MESA because the photospheric luminosity and effective temperature were rough?? before evoution was modelled
+post explosion
+
+4.1 evolutionary tracks
+
+why is binding energy increased after the SN impact?
+dont understand why the initial binding energy doesnt include the energy that the unbound mass has even its bound initially
+what are these fractional masses in the figures referring to?
+reverse shock?
+
+
 
 
 
