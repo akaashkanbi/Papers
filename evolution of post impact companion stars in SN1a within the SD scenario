@@ -1,11 +1,24 @@
 https://arxiv.org/pdf/1210.0170.pdf
 
-2012
+written 2012
 
 
 TERMINOLOGY
 
 hydrogen cataclysmic variables scenario: 
+
+supersoft channel: SN1a with either MS or subgiant companion
+
+helmholtz equation of state: looks like a really fast equation of state that outputs smooth and continuous derivatives of specifc entropy
+specific internal energy, and pressure. Also guarantees thermodynamic consistency
+
+inviscid: a fluid that isn't thick
+
+thermodynamic consistency: when the entropy and temperature are well defined by an EOS - particularly important when
+hydrodynamics is coupled with other fields of physics
+(for more info, look in mphys folder, article titled "some comments on thermodynamic consistency")
+
+
 
 
 WHAT IS THE PAPER ABOUT?
@@ -31,6 +44,10 @@ tycho G- high proper motion, low rotation speed <7.5km/s. SD scenario predicts h
 expect companion star to also have high rotational speed due to fast rotating orbits prior to explosion
 
 But this is only the case when you dont consider how the star evolves post supernova
+
+NUMERICAL METHODS
+
+EOS used is the helmholtz equation of state
 
 
 
