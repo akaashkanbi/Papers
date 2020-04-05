@@ -19,12 +19,18 @@ hydrodynamics is coupled with other fields of physics
 (for more info, look in mphys folder, article titled "some comments on thermodynamic consistency")
 
 
+Modified mixing length theory: allows for simulation of convection to vary depending on opacity
 
+zero age main sequence: a star that has just reached the MS 
 
+------------------------------------------------------------------------------------------------
 WHAT IS THE PAPER ABOUT?
 
 simulated a SN1a for a bunch of stars to see if any of them are similar to Tycho G, a suspected companion star
 of SN1572
+
+
+
 
 WHAT DID THEY FIND OUT?
 
@@ -35,7 +41,12 @@ found that the stars expand post impact and continue to expand for about 1000 ye
 
 and that the evolution of the str depends on how much energy it absorbed and how deep the energy penetrated into the star
 
+all stars modelled started out with a metallicity of Z=0.02
 
+
+
+
+-----------------------------------------------------------------------------------
 introduction notes:
 they know there is a mass transfer phase for at least some of the SN1a explosions because there exists some 
 pre-supernova circumstellar medium within the supernovae reminants
@@ -45,9 +56,30 @@ expect companion star to also have high rotational speed due to fast rotating or
 
 But this is only the case when you dont consider how the star evolves post supernova
 
+
+--------------------------------------------------------------------------------------
+some interesting notes on the optically thick wind accretion model (OTWA model):
+
+A study conducted by EVLA, observations on SN2011fe found that OTWA model was not present, but OTWA model can explain the circumstellar
+torus around SN2005gj SN2002ic SN2006X
+Also, delay time distributions predicted by this model are consistent with what is observed
+----------------------------------------------------------------------------------------
 NUMERICAL METHODS
 
 EOS used is the helmholtz equation of state
+
+The mixing-length theory of convection used is the modified MLT by Henyey et al. (1965)
+
+As with the paper on He star companion, the mass loss phase is constant to simplify things such that only the end result after 
+mass loss finishes matters--final result matches with what is predicted by Hachisu et al
+
+---------------------------------------------------------------------------------------
+RESULTS
+
+10-20% of companion mass is lost due to the explosion and ejecta ripping away surface material from the star
+Interestingly, model C has a luminosity past supernova of 44 L_solar, whereas the rest range from 13-22 L_solar
+
+
 
 
 
