@@ -23,6 +23,11 @@ Modified mixing length theory: allows for simulation of convection to vary depen
 
 zero age main sequence: a star that has just reached the MS 
 
+break up velocity: when the centrifugal force at the surface of a star is equal to the grvitational force, a stability rotating star 
+must have an angular velocity lower than this value
+
+
+
 ------------------------------------------------------------------------------------------------
 WHAT IS THE PAPER ABOUT?
 
@@ -73,13 +78,31 @@ The mixing-length theory of convection used is the modified MLT by Henyey et al.
 As with the paper on He star companion, the mass loss phase is constant to simplify things such that only the end result after 
 mass loss finishes matters--final result matches with what is predicted by Hachisu et al
 
+in comparison to the thermal timescale, the stars post impact should reach hydrostatic equilbrium quickly
+
+before using mesa to simulate stellar explosion post impact, the system needs to relax a bit to get suitable values for the 
+density, temperature and pressure (factors that determine the hydrostatic equilibrium?)
+
+but the specific entropy, and composition density profiles can be used directly post explosion because the system is adiabatic.
+If this is the case, why does the temperature need to be relaxed??
+
+what is the significance of having subsonic gravitationally bound mass after an explosion when constructing a model of hydrostatic
+equilibrium?
+
+when constructing an EOS to solve for the specific entropy profile, the system is considered to be only an ideal gas + radiation
+what other considerations could have been made?
 ---------------------------------------------------------------------------------------
 RESULTS
 
 10-20% of companion mass is lost due to the explosion and ejecta ripping away surface material from the star
-Interestingly, model C has a luminosity past supernova of 44 L_solar, whereas the rest range from 13-22 L_solar
+Interestingly, model C has a luminosity past supernova of 44 L_solar, whereas the rest range from 13-22 L_solar- this is
+because model C had a higher initial luminosity in the first place
 
+it is mentioned that model G has a longer thermal timescale than the rest: this is becuase its mass is the smallest of them all
+because it has the smallest mass, it takes longer for it to radiate away the the additional energy it pocesses 
 
+Question on thermal timescale: its the timescale that tells us how long it would take for us to see a change in the energy,
+if thats on the scale of Myrs how can we hope to see any change in a star?
 
 
 
