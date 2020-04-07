@@ -1,3 +1,6 @@
+
+https://arxiv.org/pdf/1209.4458.pdf
+
 TERMINOLOGY:
 SNe 1a has no hydrogen lines
 
@@ -32,6 +35,11 @@ massive member of the binary system, can be via accretion
 
 common envelope: gas surrounding binary system, when mass transfer is too quick, you get a common envelope which
 causes the orbital seperation to decay due to drag forces leading to either a merger or envelope ejection
+
+SSS=supersoft x ray source: low energy x ray source. believed to originate from nucelar burning on the surface of a WD
+when it has accreted matter from its binary companion
+
+hydrogen shell: outermost layer in a WD
 
 
 PURPOSE OF PAPER?
@@ -98,6 +106,23 @@ shown through comparison with 2D hydrodynamic eulerian simulation which has simi
 
 numerical noise can be a problem when trying to get a system in hydrostatic equilibrium,
 mitigated by allowing the system to relax for a few dynamic timescales
+------------------------------------------------------------------------------------------------------
+NUMERICAL METHODS
+
+LIMITS OF SD MS COMPANION
+WD in WD + MS channel can have mass as low as 0.61 solar masses and still reach chandrasekhar limit
+donor star can have mass less than 2 Solar masses
+
+in the paper there are a few IF statements:
+if the accretion rate is between half the critical accretion rate (rate required for accreted hydrogen to be burned into 
+helium in a stable manner on the surface, any unburnt hydrogen is lost through the optically thick wind) and unitary critical
+accretion rate, then there is SSS observed and you still have stable hydrogen shell burning on the surface
+
+if its between 1/8 and 1/2, you get weak shell flashes in the form of novae, no mass loss though
+
+if its less than 1/8, mass cannot be collected up by the WD and you wont get a supernova
+
+
 
 
 
