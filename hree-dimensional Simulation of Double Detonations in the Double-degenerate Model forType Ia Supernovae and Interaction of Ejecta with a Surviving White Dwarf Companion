@@ -1,0 +1,59 @@
+https://iopscience.iop.org/article/10.3847/1538-4357/aae9ee/pdf
+
+TERMINOLOGY
+
+violent merger model: WD's merge through tidal distruptions of the secondary, igniting fusion (in the primary or seconday?)
+but the total mass doesnt need to be higher than chandrasekhar mass as the fusion is ignited by hydronamical effects
+
+D6 model: dynamically driven double degenerate double detonation model, also called the Helium ignited violent merger model
+essentially shock compression of He in a system that doesnt need to have super chandrasekhar mass, and not much helium 0.01 SM
+
+hypervelocity: velocity >= 1,000 km/s
+------------------------------------------------------------------------------------------------------
+WHAT IS THE PAPER ABOUT?
+
+double detonation of 2 CO WD, they followed the evolution of the surviving WD from He inigition, CO ignition, then the
+interaction between the ejecta and the surviving WD. All using smooth particle hydrodynamics on super chandrasekhar mass
+binary systems
+
+Found that the surviving companion captures Ne 56 and He which is visible on its surface
+
+SN ejecta would be composed of unburnt material as well as "companion origin steam" which depends on the relative 
+abundances of the C0 white dwarfs
+
+paper predicts that although simulations were made only on super chadrasekhar mass binary systems, similar features 
+should also appear in sub-chandrasekhar mass systems
+----------------------------------------------------------------------------------------
+
+INTRODUCTION NOTES:
+if we take into account the idea that both super and sub chandrasekhar mass explosions result in SN1a then the DD
+scenario can explain the observed rates of SNe 1a explosions 
+
+D6 model favoured because you dont need as much helium as you do in DD scenario, where at least 0.1 SM is needed 
+to produce the helium signature it predicts 
+
+D6 is distinct because it expects the companion star to have hyper velocity as it gets really close to the primary before the
+explosion occurs
+-----------------------------------------------------------------------------------------
+
+METHOD
+
+they use Helmholtz EOS without coloumb corrections 
+
+paper doesn't model the pre-explosion mass transfer phase
+
+INITIAL CONDITIONS: primary C0 white dwarf with 0.95 SM CO core, 0.05 SM helium shell. secondary CO WD, 0.6 SM with no 
+helium shell because it is assumed that the helium shell has all been transferred to the Primary by the time the explosion
+occurs 
+outermost shell of primary has a mix of He (Y=0.6) and CO (each 0.2), apparently this mixing also helps facilitate He 
+ignition
+
+Watch video on kelvin helmholtz instability :https://www.youtube.com/watch?v=qgamfo86FQo
+
+
+
+
+
+
+
+
