@@ -9,6 +9,22 @@ D6 model: dynamically driven double degenerate double detonation model, also cal
 essentially shock compression of He in a system that doesnt need to have super chandrasekhar mass, and not much helium 0.01 SM
 
 hypervelocity: velocity >= 1,000 km/s
+
+instability: when a perturbation starts to grow, it will continue to grow 
+
+Kelvin-helmholtz instability: when you have two fliuds with one moving relative to another, and there is a slight perturbation
+on one along the interface, this perturbation grows into something resembling a wave pattern
+
+interesting video on kelvin helmholtz instability :https://www.youtube.com/watch?v=qgamfo86FQo
+
+Rayleigh-taylor instability: when you have an density inversion (more dense on top of less dense) and so the less dense
+tries to rise, the more dense tries to fall. this perturbation along the interface continues to grow giving a "finger" pattern
+
+--------------------------------------------------------------------------------------------------
+SOME NOTES ON SPH
+the particles of the system become the "mesh" without actually having a mesh
+
+the properties of a particle are found by interpolating the property of neighbouring particles
 ------------------------------------------------------------------------------------------------------
 WHAT IS THE PAPER ABOUT?
 
@@ -48,7 +64,7 @@ occurs
 outermost shell of primary has a mix of He (Y=0.6) and CO (each 0.2), apparently this mixing also helps facilitate He 
 ignition
 
-Watch video on kelvin helmholtz instability :https://www.youtube.com/watch?v=qgamfo86FQo
+
 
 
 
