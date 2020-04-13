@@ -3,7 +3,7 @@ https://www.annualreviews.org/doi/pdf/10.1146/annurev-astro-082812-141031
 TERMINOLOGY
 
 Hubble diagram: a graph recession velocity against distance to us.
-
+--------------------------------------------------------------------------------
 INTRODUCTION:
 
 SNe 1a are being used to determine the evolution of the the dark energy equation of state
@@ -13,10 +13,35 @@ as SNe 1a are used distance markers
 
 As SNe 1a give off lots of KE, they can influence the movement of gases in interstellar and intergalactic medium
 this can affect star formation and galaxy evolution
+---------------------------------------------------------------------------------
+basic physics section
 
 this paper mentions that SNe 1a have no hydrogen or helium lines, but aren't DD characterised by their helium signatures?
 The SD scenario is constrained by hydrogen accretion, but their is no mention of Helium constraints in other papers.
 
+some carbon and oxygen in SNe 1a are unburnt
+
 SINGLE DEGENERATE MODELS:
 optically thick wind proposed to originate from the accreting WD, driven by the luminosity from nuclear burning on its surface
 -this wind however might complicate the dynamics of accretion and roche lobe overflow
+
+when accretion is slow, you have a layer of unburnt/cold degenerate hydrogen forming on the outermost layer of the accretor
+which can diffuse into the CO core
+
+when accretion rate is too high, hydrogen ignited and mass is retained, but after several thousand H explosions, the He ash
+is ignited and almost all of the accreted matter is blown off
+
+DOUBLE DEGENERATE MODELS:
+when accretion rate is really high, you can have off-center ignition of C into O and Ne. as mass approaches chandrasekhar,
+you get an accretion induced core collapse, low luminosity, transient event
+
+but if the secondary is rotating, accretion can be slowed down and off-center detonation can be avioded
+
+COLLISIONAL DEGENERATE MODELS:
+To match observed number of SNe1a, though to occur in dense stellar environments where you have a triple system, 2WD and a
+a low mass star orbiting around. this configuration causes strange oscillations in the eccentricity of the orbits
+in the binary leading to faster release of GW and quicker merger time
+
+------------------------------------------------------------------------------------
+
+
