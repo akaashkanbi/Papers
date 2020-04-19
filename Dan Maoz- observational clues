@@ -3,6 +3,9 @@ https://www.annualreviews.org/doi/pdf/10.1146/annurev-astro-082812-141031
 TERMINOLOGY
 
 Hubble diagram: a graph recession velocity against distance to us.
+
+kozai-lidov mechanism: when you have perturbation of a third onto a binary system, causes changes in the inclination and eccentricity
+of the orbits 
 --------------------------------------------------------------------------------
 INTRODUCTION:
 
@@ -38,9 +41,13 @@ you get an accretion induced core collapse, low luminosity, transient event
 but if the secondary is rotating, accretion can be slowed down and off-center detonation can be avioded
 
 COLLISIONAL DEGENERATE MODELS:
-To match observed number of SNe1a, though to occur in dense stellar environments where you have a triple system, 2WD and a
-a low mass star orbiting around. this configuration causes strange oscillations in the eccentricity of the orbits
+head on collisions of WD, thought to occur in dense stellar clusters
+
+To match observed number of SNe1a, thought to occur in dense stellar environments where you have a triple system, 2WD and a
+a low mass star orbiting around. this configuration causes Kozai-lidov oscillations in the eccentricity of the orbits
 in the binary leading to faster release of GW and quicker merger time
+
+because eccentricity
 
 ------------------------------------------------------------------------------------
 
