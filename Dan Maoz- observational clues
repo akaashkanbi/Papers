@@ -7,6 +7,7 @@ Hubble diagram: a graph recession velocity against distance to us.
 kozai-lidov mechanism: when you have perturbation of a third onto a binary system, causes changes in the inclination and eccentricity
 of the orbits 
 
+solid body rotation: when all parts of the body maintain a constant distance from the axis of rotation
 --------------------------------------------------------------------------------
 INTRODUCTION:
 
@@ -48,8 +49,20 @@ To match observed number of SNe1a, thought to occur in dense stellar environment
 a low mass star orbiting around. this configuration causes Kozai-lidov oscillations in the eccentricity of the orbits
 in the binary leading to faster release of GW and quicker merger time
 
-because eccentricity
+DOUBLE DETONATION MODELS
+rotating WD can be super chandrasekhar in mass, as the rotation adds stability?
 
+these rotating WD can also delay explosions, or not explode at all, as carbon wouldnt be ignited even after the donor has given up
+all of its mass. this would effectively erase the existence of the binary system: spin up/spin down scenario
+
+solid body rotation supports up to 1.47 solar masses, so solid body rotation would not be enough to erase binary information
+
+differentially rotating body was proposed, this would support up to 2 solar masses. It is not clear whether this is viable though 
+as some argue that this would just become rigid body rotation after baroclinic instabilities (dont get what this is)
+
+but hachisu argues that baroclinic instabilities probably wont happen
+
+binary population synthesis
 ------------------------------------------------------------------------------------
 SUPERNOVA PHASES
 EARLY PHASE, PEAK PHASE-aborption spectra as light is passin through the dense ejecta , you will see
