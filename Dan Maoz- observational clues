@@ -4,10 +4,12 @@ TERMINOLOGY
 
 Hubble diagram: a graph recession velocity against distance to us.
 
-kozai-lidov mechanism: when you have perturbation of a third onto a binary system, causes changes in the inclination and eccentricity
-of the orbits 
+kozai-lidov mechanism: when you have perturbation of a third onto a binary system, causes changes in the inclination and 
+eccentricity of the orbits 
 
 solid body rotation: when all parts of the body maintain a constant distance from the axis of rotation
+
+recurrent novae: nova with more than one outburst within the past century
 --------------------------------------------------------------------------------
 INTRODUCTION:
 
@@ -18,6 +20,7 @@ as SNe 1a are used distance markers
 
 As SNe 1a give off lots of KE, they can influence the movement of gases in interstellar and intergalactic medium
 this can affect star formation and galaxy evolution
+
 ---------------------------------------------------------------------------------
 basic physics section
 
@@ -62,11 +65,30 @@ as some argue that this would just become rigid body rotation after baroclinic i
 
 but hachisu argues that baroclinic instabilities probably wont happen
 
-binary population synthesis
+
 ------------------------------------------------------------------------------------
 SUPERNOVA PHASES
 EARLY PHASE, PEAK PHASE-aborption spectra as light is passin through the dense ejecta , you will see
 spectra of the other parts of the exploded star LATE PHASE- ejecta has expanded out more
 and so we can see emission lines from the core of the star, which is where iron emission spectra can be seen
+
+----------------------------------------------------------------------------------------
+linking theory and observation
+
+binary population synthesis important because it evolves a collection of stars and tells us the end state
+this can then tell us how many of are likely to explode via supernova through a specific channel as well
+as important info about delay time distributions
+
+------------------------------------------------------------------------------------------
+evidence from observations
+
+10^7 SNe1a occur a hubble time per galaxy so a viable progenitor system should be clearly visible 
+a way of identifying a binary system is through novae, happen much frequently
+
+recurrent novae result in a WD that actually increases in mass, such that the chandrasekhar mass will be reached
+
+but some say that because there isnt very many of them, it isnt a potential progenitor system. However its likely 
+that some recurrent novae have been misidentified as classical novae, so perhaps there are enough?
+
 
 
