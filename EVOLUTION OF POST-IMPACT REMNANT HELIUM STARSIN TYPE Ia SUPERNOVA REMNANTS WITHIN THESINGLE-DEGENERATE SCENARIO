@@ -25,6 +25,8 @@ https://aasnova.org/2019/03/29/a-rare-double-detonation-supernova-caught-in-the-
 Delay-time-distribution (DTD): distribution of how long it takes for SN1a to occur since stellar birth
 https://iopscience.iop.org/article/10.1086/591646/fulltext/22918.text.html 
 
+reverse shock: when stuff gets blown away, and it hits some other stuff causing a shockwave to propagate in the opposing
+direction
 ------------------------------------------------------
 
 WHAT DOES THE PAPER ACCOMPLISH?
@@ -105,23 +107,34 @@ assumed star was in radiative equilibrium
 initial luminosity profile found by using the temperature gradient, substituting fux for luminosity
 relaxation in MESA because the photospheric luminosity and effective temperature were rough?? before evoution was modelled
 post explosion
-
+-------------------------------------------------------------------------
 4.1 evolutionary tracks
 
-why is binding energy increased after the SN impact?
+why is binding energy increased after the SN impact? energy is injected into the star and so the total energy i.e binding
+energy increases, but the modulus of the binding energy is actually decreasing as the total energy is negative
+
 dont understand why the initial binding energy doesnt include the energy that the unbound mass has even its bound initially:
-Its because energy is deposited into the star when shock heating occurs from ejecta companion interaction. this energy deposited
-affects the binding energy of the star causing some material to have the energy to become unbound. initial binding energy refers to the
-binding energy before the explosion occurs
+Its because energy is deposited into the star when shock heating occurs from ejecta companion interaction. this energy 
+deposited affects the binding energy of the star causing some material to have the energy to become unbound. initial binding
+energy refers to the binding energy before the explosion occurs
 
 what are these fractional masses in the figures referring to?
-reverse shock?
+reverse shock? when stuff gets blown away, and it hits some other stuff causing a shockwave to propagate in the opposing
+direction
 
 time steps: t=10^-8 years for the first 10^-6 years, then they let MESA determine the time step for the rest of the evolution
 
+they looked at the total energy given to the supernova ejecta and compared it to the energy given to the companion 
+(found by calculating the binding energy), 40-60% of the ejecta energy is given to the companion.
 
+remaining energy is given to the unbound mass that was accreted from the companion, some carried away due to any 
+reverse shocks
 
+He stars are more compact and so there is less time needed for local radiative diffusion
 
+star expands outwards (fits with what ive learnt) leading to more energy being able to escape, effective temperature also 
+increases as luminosity given off is higher (more radiation will be escaping) this allows for more cooling and so
+the star cools down after some time------complete tomorrow 
 
 
 
