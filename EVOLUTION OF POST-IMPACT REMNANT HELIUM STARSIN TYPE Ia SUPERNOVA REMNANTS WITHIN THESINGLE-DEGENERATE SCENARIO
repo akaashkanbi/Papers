@@ -10,7 +10,8 @@ subdwarf: star that is between the main sequence and white dward regions on HR d
 
 M-dwarf: M type main sequence star
 
-shock: a disturbance that propagates faster than sound speed in the medium in question
+shock: a disturbance that propagates faster than sound speed in the medium in question, results in dicontinuities in pressure 
+density and temperature
 
 subgiant: star that is brighter than the MS star (of same spectral class) but not as bright as giant stars 
 
@@ -108,7 +109,11 @@ post explosion
 4.1 evolutionary tracks
 
 why is binding energy increased after the SN impact?
-dont understand why the initial binding energy doesnt include the energy that the unbound mass has even its bound initially
+dont understand why the initial binding energy doesnt include the energy that the unbound mass has even its bound initially:
+Its because energy is deposited into the star when shock heating occurs from ejecta companion interaction. this energy deposited
+affects the binding energy of the star causing some material to have the energy to become unbound. initial binding energy refers to the
+binding energy before the explosion occurs
+
 what are these fractional masses in the figures referring to?
 reverse shock?
 
