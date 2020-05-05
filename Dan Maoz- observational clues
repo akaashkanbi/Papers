@@ -9,7 +9,11 @@ eccentricity of the orbits
 
 solid body rotation: when all parts of the body maintain a constant distance from the axis of rotation
 
-recurrent novae: nova with more than one outburst within the past century
+recurrent novae: nova with more than one outburst within the past century, occur irregularly
+
+hard xrays: xrays with high energy (5-10 keV)
+
+soft xrays: xrays with low energies
 --------------------------------------------------------------------------------
 INTRODUCTION:
 
@@ -26,6 +30,8 @@ basic physics section
 
 this paper mentions that SNe 1a have no hydrogen or helium lines, but aren't DD characterised by their helium signatures?
 The SD scenario is constrained by hydrogen accretion, but their is no mention of Helium constraints in other papers.
+EDIT: there are helium constraints too, dont forget that when hydrogen and helium are accreted onto the WD,
+it gets burnt and converted into carbon
 
 some carbon and oxygen in SNe 1a are unburnt
 
@@ -75,6 +81,7 @@ and so we can see emission lines from the core of the star, which is where iron 
 ----------------------------------------------------------------------------------------
 linking theory and observation
 
+why are binary population synthesis calculations important?
 binary population synthesis important because it evolves a collection of stars and tells us the end state
 this can then tell us how many of are likely to explode via supernova through a specific channel as well
 as important info about delay time distributions
@@ -82,13 +89,28 @@ as important info about delay time distributions
 ------------------------------------------------------------------------------------------
 evidence from observations
 
+How can observation help identify a projector system?
 10^7 SNe1a occur a hubble time per galaxy so a viable progenitor system should be clearly visible 
 a way of identifying a binary system is through novae, happen much frequently
 
-recurrent novae result in a WD that actually increases in mass, such that the chandrasekhar mass will be reached
+why are recurrent novae a potential projenitor system?
+recurrent novae result in a WD that actually increases in mass, such that the chandrasekhar mass will be reached, but this
+is debated, some believe that the amount of ejected matter is much higher than previously calculated
 
 but some say that because there isnt very many of them, it isnt a potential progenitor system. However its likely 
 that some recurrent novae have been misidentified as classical novae, so perhaps there are enough?
+
+For recurrent novae:
+higher the WD mass, lower the mass needed for ignition
+higher the accretion rate, lower the mass needed for ignition
+so the amount of ignitions occuring can tell you information about the binary system
+
+what are the observational pieces of evidence implying high WD mass?
+-hard x ray emission
+-large accretion rate (higher gravity)
+
+do recurrent novae increase mass growth rate?
+
 
 
 
