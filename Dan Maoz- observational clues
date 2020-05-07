@@ -14,6 +14,9 @@ recurrent novae: nova with more than one outburst within the past century, occur
 hard xrays: xrays with high energy (5-10 keV)
 
 soft xrays: xrays with low energies
+
+Wolf-rayet stars: really hot stars that used to be either red/blue supergiant, really luminous but most of their light is
+in UV band so they dont look that bright. strong stellar winds,
 --------------------------------------------------------------------------------
 INTRODUCTION:
 
@@ -45,11 +48,6 @@ which can diffuse into the CO core
 when accretion rate is too high, hydrogen ignited and mass is retained, but after several thousand H explosions, the He ash
 is ignited and almost all of the accreted matter is blown off
 
-DOUBLE DEGENERATE MODELS:
-when accretion rate is really high, you can have off-center ignition of C into O and Ne. as mass approaches chandrasekhar,
-you get an accretion induced core collapse, low luminosity, transient event
-
-but if the secondary is rotating, accretion can be slowed down and off-center detonation can be avioded
 
 COLLISIONAL DEGENERATE MODELS:
 head on collisions of WD, thought to occur in dense stellar clusters
@@ -122,7 +120,7 @@ In the models proposed by Hachisu et al 1999 they showed that SDS have a recurre
 are emitted when the accretion rate start growing. this higher accretion rate allows higher temperatures and so
 degeneracy of the hydrogen layers are lifted and you get stable burning. But this event is transcient.
 
-proto DD systems (when only the first WD has formed) also give off ssx but they are shorter in duration than in the 
+proto DD systems (when only the first WD has formed) also give off ssx but they are shorter in duration than in the
 SD case 
 
 
@@ -132,6 +130,11 @@ they tell us that perhaps you have a hot WD in close orbit with a non degenerate
 super soft xrays when hydrogen is burnt to helium on the WD surface---point for SD system?
 
 BUT not all supersoft persistent x ray sources are from the single degenerate scenario
+
+Optically thick wind happening in SD scenario can result in matter collecting around the WD creating an optically thick
+photosphere, reprocessing SSX into UV radiation. this may make some people mistake WD's for OB stars which would have a
+similar effective temperature
+
 
 
 
