@@ -16,7 +16,9 @@ hard xrays: xrays with high energy (5-10 keV)
 soft xrays: xrays with low energies
 
 Wolf-rayet stars: really hot stars that used to be either red/blue supergiant, really luminous but most of their light is
-in UV band so they dont look that bright. strong stellar winds,
+in UV band so they dont look that bright. strong stellar winds
+
+helium nova: nova with no hydrogren lines, thought to occur when the helium shell in a white dwarf is ingited
 --------------------------------------------------------------------------------
 INTRODUCTION:
 
@@ -134,6 +136,16 @@ BUT not all supersoft persistent x ray sources are from the single degenerate sc
 Optically thick wind happening in SD scenario can result in matter collecting around the WD creating an optically thick
 photosphere, reprocessing SSX into UV radiation. this may make some people mistake WD's for OB stars which would have a
 similar effective temperature
+
+Binary white dwarfs-----------------------------------------------------------------------------
+
+binary wd systems contain a luminous WD and a much fainter one, so sometimes they can be mistaken for a single wd
+
+Rapidly rotating WD---------------------------------------------------------------------------
+
+wd rotation hard to measure, but even the ones we have measured have low rotation speeds which makes spin up/down scenario 
+quite unlikely
+ v445 pup = helium nova
 
 
 
