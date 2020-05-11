@@ -19,6 +19,8 @@ Wolf-rayet stars: really hot stars that used to be either red/blue supergiant, r
 in UV band so they dont look that bright. strong stellar winds
 
 helium nova: nova with no hydrogren lines, thought to occur when the helium shell in a white dwarf is ingited
+
+m101: the pinwheel galaxy
 --------------------------------------------------------------------------------
 INTRODUCTION:
 
@@ -145,9 +147,33 @@ Rapidly rotating WD-------------------------------------------------------------
 
 wd rotation hard to measure, but even the ones we have measured have low rotation speeds which makes spin up/down scenario 
 quite unlikely
- v445 pup = helium nova
+v445 pup = helium nova
+ 
+ -----------------------------------------------------------------
+  observational clues pre explosion evidence
+  
+  
+ we've seen a cc just before an explosion occured which is why we known the progenitor system, but the same cant be said 
+ for SNe 1a
+ 
+ we have luminosity limits for them though, expected to have pre explosion luminosities >= supergiants with initial mass
+ = to 8 solar masses, luminosities are expected to be SSX
+ 
+in the last 25 years a supernova called SN2011fe happened, it was a typical SN with great viewing conditions i.e little to 
+no line of sight extinction. 
 
-got up to pre explosion evidence
+but looking closer at it, no source could be detected in the bands they were looking at, so this ruled out some possible
+companions 
+
+------------------------------------------------------------------
+observational clues during the explosion
+
+early development of the light curve and spectra tell us a lot about a SNe1a's progenitor system
+
+during explosion, detonation occurs which propagates supersonically to the surface, heating everything it encounters in
+the process
+shockwave propagates at relativistic velocities near the surface due to the dropping density profile
+ 
 
 
 
