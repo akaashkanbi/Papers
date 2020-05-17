@@ -1,0 +1,58 @@
+http://mesa.sourceforge.net/
+
+https://arxiv.org/pdf/1009.1622.pdf --paper 1
+QUESTIONS:
+why are equation of state tables used? what can they do that equations of state cannot?
+
+TERMINOLOGY:
+interface: (computer science) a shared boundary where two parts of a computer can exchange information. could also be where
+the human exchanges information with the computer
+
+Libraries: a set of modules
+
+routine/subroutine: perform a specific task within a program, indepedent of the program
+
+numerical instability: when approximation errors become magnified 
+
+stiff differential equation: a differential equation that yields numerically unstable solutions when certain numerical methods are applied,
+unless the step size is really small
+
+bad values: infinity or NaN (Not a Number)
+--------------------------------------------------------------------------------------------------------
+
+The paper is outlined as follows:
+§2 explains the design and implementation of MESA modules; 
+§3-5 describe the numerical, microphysics, and macrophysical modules;
+§6 describes the stellar evolution module MESA star; 
+§7 presents a series of tests and code comparisons that serve as rudimentary verification and demonstrates
+the broader capabilities of of MESA star;
+and §8 summarizes the material presented.
+
+page 10 contains a list of all of the modules, what they do, and where you can find more information
+ 
+module mtx: does matrix manipulation
+
+module interp_1d, interp_2d: does interpolation of variables in 1d and 2d respectively
+
+module num: a module that contains the solvers for stiff and non stiff differential equations, and also contains the 
+newton-raphson solver
+
+module alert: sends error messages to the terminal
+
+module utils: checks if any numbers given are bad values, and some other stuff
+
+module const: contains all the physical constants used in stellar astrophysics in cgs (centimeter-gram-second) units
+
+module chem: deals with the chemical elements within the system, can take in an arbitrary set of species from the user,
+and use it within the simulation
+
+module eos: contains the equation of state, works with density and temperature**check this module out
+EOS used in MESA are helmholtz (HELM), PC, OPAL, SCVH. It switches between these depending on which is most appropriate for 
+the temperature density conditions 
+
+MESA density-temperature tables are computed using OPAL EOS for higher temperatures and densities, and for lower T and densities,
+SCVH is used for Z<=0.4
+
+when Z>0.4, HELM and PC are used, and are used whenever things are outside the ranges of the MESA table
+
+got up to the end of page 13
