@@ -18,6 +18,11 @@ stiff differential equation: a differential equation that yields numerically uns
 unless the step size is really small
 
 bad values: infinity or NaN (Not a Number)
+
+preprocessor: program that processes information into a form that is suitable for another program to read
+
+
+
 --------------------------------------------------------------------------------------------------------
 
 The paper is outlined as follows:
@@ -46,13 +51,46 @@ module const: contains all the physical constants used in stellar astrophysics i
 module chem: deals with the chemical elements within the system, can take in an arbitrary set of species from the user,
 and use it within the simulation
 
+
+------------------------------------------EOS stuff-----------------------------------------------------------
+
+
 module eos: contains the equation of state, works with density and temperature**check this module out
 EOS used in MESA are helmholtz (HELM), PC, OPAL, SCVH. It switches between these depending on which is most appropriate for 
 the temperature density conditions 
+
+eos module also takes in variables X(hydrogen fraction), Z(metal fracion), A_bar(mass averaged atomic weight of metals) and 
+Z_bar(mass averaged atomic charge of metals)
 
 MESA density-temperature tables are computed using OPAL EOS for higher temperatures and densities, and for lower T and densities,
 SCVH is used for Z<=0.4
 
 when Z>0.4, HELM and PC are used, and are used whenever things are outside the ranges of the MESA table
 
-got up to the end of page 13
+there is blending that occurs between the zones described by the different EOS's to preserve thermodynamic consistency
+
+HELM and PC assume complete ionisation of substance
+
+HELM EOS accounts for pair production occuring at high temperatures
+
+PC takes into account cystalisation of particles within a cooling white dwarf
+
+eos module takes in variables X(hydrogen fraction), Z(metal fracion), A_bar(mass averaged atomic weight of metals) and 
+Z_bar(mass averaged atomic charge of metals)
+
+for details of when each EOS operates, check the graph on page 14
+
+when operating in the PC regime, you must specify all mass fractions of isotopes above 0.01 to correctly handle isotope mixing
+
+
+--------------------------------------------opacities---------------------------------------------------------------------
+inside the kap module there is make_kap which makes opacity tables using electron conduction opacities and radiative opacities
+also takes into account pair production effects on the opacity
+
+types of opacity tables: type 1:
+
+
+
+
+
+got up to half of page 17
