@@ -21,6 +21,12 @@ bad values: infinity or NaN (Not a Number)
 
 preprocessor: program that processes information into a form that is suitable for another program to read
 
+OPAL: a table that helps us calculate opacities 
+
+OP= opacity project, a project to produce more accurate opacity tables?
+
+Linear interpolation: jointing two data points together by a straight line, mu =0 at the start, mu=1 at the end. mu varies
+between the two inbetween and you use a formula to interpolate estimates for the data points within.
 
 
 --------------------------------------------------------------------------------------------------------
@@ -87,7 +93,16 @@ when operating in the PC regime, you must specify all mass fractions of isotopes
 inside the kap module there is make_kap which makes opacity tables using electron conduction opacities and radiative opacities
 also takes into account pair production effects on the opacity
 
-types of opacity tables: type 1:
+types of opacity tables: type 1: fixed metal distributions and work in the range 0<X<1-Z and 0<Z<0.1
+                         type 2: In this table you can have varying amounts of C an O, 0<x<0.7 and 0<Z<0.1 all less than/equal
+                         
+                         MESA opacity tables are derived from these two types
+
+there is blending occuring between the zones dominated by different opacity tables- perhaps a source of error when we 
+are close to the boundaries?
+
+the kap module finds opacity by interpolating in log T and log R 
+                         
 
 
 
