@@ -1,0 +1,24 @@
+shell is a program that takes commands from the keyboard and makes the operating system do them
+
+GUI- graphical user interface----like settings 
+CLI- command line interface------like terminal
+
+unix has many shells: bash (Borne Again SHell), ksh, tcsh, zsh
+
+terminal? a program that lets you interact with the shell
+
+emulator: allows one computer system to behave like another
+
+superuser: means you have admin privaleges, if last character on shell prompt is # instead of $
+
+highlight text paste it to terminal by pressing middle button on mouse or left and right buttons on touch pad
+
+root directory= the first directory, contained within in are subdirectories and files, represented by a /
+working directory= the directory you are currently in
+
+home directory= directory you are in when you first log in
+
+going back to your parent directory: cd ..
+single . means the working directory 
+
+absolute pathname: to change directories using absolute pathnames, only add / at the start if you are in the root directory
