@@ -1,5 +1,7 @@
 shell is a program that takes commands from the keyboard and makes the operating system do them
+http://linuxcommand.org/lc3_lts0020.php
 
+------------------------------------------lesson 1 +2--------------------------------------------------------
 GUI- graphical user interface----like settings 
 CLI- command line interface------like terminal
 
@@ -22,3 +24,35 @@ going back to your parent directory: cd ..
 single . means the working directory 
 
 absolute pathname: to change directories using absolute pathnames, only add / at the start if you are in the root directory
+
+changing to the home directory: cd 
+
+change to the working directory you were previously on: cd -
+
+ls -a will show all hidden directories and files too. hidden files or directories have a . preceeding their name
+
+when naming files, limit puntuation to -._ no spaces
+
+---------------------------------------------lesson 3----------------------------------------------------------------
+structure of commands: command -options arguements 
+command is stuff like ls, options are the extra optional shit you can do with the command, arguement is the other stuff you 
+want the command to operate on 
+
+listing files in long format: ls -l
+listing files in a certain directory: ls /<directory name>
+listing hidden files and normal files and directories in long format: ls -la (can be -al too, order doesnt matter)
+
+long format: - indicates file, d indicates directory. the next set of character indicates the permissions (read write etc)
+next is the person who owns the file, then the group of people who also have access to the file/directory, then its the 
+size of the file in bytes, modification date, and file name at the end
+
+displaying a text file: less <textfile, no extension needed>,  to quit, press q
+you can scroll through the pages using up and down arrows
+go to the end of the file: g
+go to the start of the file: 1g
+to find a word, type /<word>
+
+
+
+
+
