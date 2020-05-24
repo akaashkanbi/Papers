@@ -32,6 +32,14 @@ its simple but has a lot of discontinuity
 Cubic interpolation: requires 4 data points instead of 2, but the function is more continuous and is a closer match to the
 truth
 
+gravitational settling: jargon for particles moving in accordance to gravity, gravitational settling and radiative levitation
+are opposing phenomena
+
+radiative levitation: when the abundances of heavier elements is higher than expected from spectroscopy of the photosphere.
+happens when partially ionised heavy elements absorb photons from the core becuase they have larger absorption cross sections
+the photon imparts the particle(s) with momentum causing them to rise to the photosphere
+
+
 
 --------------------------------------------------------------------------------------------------------
 
@@ -85,9 +93,6 @@ HELM EOS accounts for pair production occuring at high temperatures
 
 PC takes into account cystalisation of particles within a cooling white dwarf
 
-eos module takes in variables X(hydrogen fraction), Z(metal fracion), A_bar(mass averaged atomic weight of metals) and 
-Z_bar(mass averaged atomic charge of metals)
-
 for details of when each EOS operates, check the graph on page 14
 
 when operating in the PC regime, you must specify all mass fractions of isotopes above 0.01 to correctly handle isotope mixing
@@ -128,11 +133,24 @@ neu module: calculates energy loss rate due to neutrinos
 
 
 ----------------------------------------nuclear reaction networks-----------------------------------------
-research what reaction networks are, section 4.5 page 23
+net module: contains the basic nuclear networks, jina module is used for more complex nuclear networks
 
 
+----------------------------------------mixing length theory------------------------------------------------
+mlt module: implements the mixing length theory
+
+mixing length theory assumes high optical depth and no radiative losses, when this is not the case you can use
+modified mixing length theory
+
+----------------------------atmosphere boundary conditions--------------------------------------------------
+
+atm module: computes the temperature and pressure near the surface of the star using an atmospheric model
 
 
+------------------------------------------diffusion---------------------------------------------------------
+Diffusion module: calculates diffusion by solving the burger equation (du/dt +udu/dx = vd2u/dx2, for a given field u(x,t)
+with a diffusion co-efficient v) elements within the star are put into classes in accordance to atomic mass, 
+each class has a representative element that all elements within the class are modelled to behave similarly to
 
 
 
