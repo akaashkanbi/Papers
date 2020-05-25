@@ -39,7 +39,7 @@ command is stuff like ls, options are the extra optional shit you can do with th
 want the command to operate on 
 
 listing files in long format: ls -l
-listing files in a certain directory: ls /<directory name>
+listing files in a certain directory: ls /<absolute pathname of directory>
 listing hidden files and normal files and directories in long format: ls -la (can be -al too, order doesnt matter)
 
 long format: - indicates file, d indicates directory. the next set of character indicates the permissions (read write etc)
@@ -51,6 +51,11 @@ you can scroll through the pages using up and down arrows
 go to the end of the file: g
 go to the start of the file: 1g
 to find a word, type /<word>
+to see a complete list of shit you can do in less, type h
+
+to see what kind a file something is: type file <file name> !you must be in the same directory to do this
+
+mounting: when you attach a physical device to the tree of directories. devices are treated like files
 
 
 
