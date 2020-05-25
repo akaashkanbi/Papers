@@ -1,0 +1,41 @@
+period of high number of stars being born. results in all or most of the gas reserviors being depleted on a timescale much
+shorter than the age of the galaxy
+
+often occurs when the galaxy is about to merge with another or is in a close encounter
+
+-------------------------------------------------------------------------------------------------
+https://arxiv.org/pdf/1602.01004.pdf
+
+TERMINOLOGY
+
+stellar yields: mass of a chemical elements produced by different stars. the star doesnt need to produce it via fusion,
+the element could have just been inside it when the star formed
+mathematically expressed as (the integral over the stellar lifetime of the mass loss rate * difference in abundance of that
+element) + initial abundance*mass loss
+
+----------------------------------------------------------------------------------------------------
+chemical evolution of galaxies: how elements within stars are formed and distributed around the galaxy
+
+chemical evolution models aim to look at the distribution of these chemicals and how they evolve with time, to build one 
+you need to consider:
+
+initial conditions. is star formation gas here from the beginning or was is accreted in at a later time?
+is the gas made of primodial elements or is it enriched?
+
+construction of the stellar birthrate function--> b(m,t) = Star formation rate(t) * initial mass function (m)
+
+initial mass function(IMF) = tells us the distribution of stars at birth, estimated as a power law
+
+star formation rate (SFR) = v*signma^k where v is efficiency = star formation rate per unit mass
+sigma^k is the gas surface mass density
+this model neglects gas temperature, magnetic field and viscousity
+
+low intermediate mass stars produce H He C N O, low mass stars dont contribute to the chemical evolution of a galaxy
+because their lifetime is longer than hubble time
+
+
+
+
+
+
+
