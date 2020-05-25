@@ -39,8 +39,14 @@ radiative levitation: when the abundances of heavier elements is higher than exp
 happens when partially ionised heavy elements absorb photons from the core becuase they have larger absorption cross sections
 the photon imparts the particle(s) with momentum causing them to rise to the photosphere
 
+modularity: the degree to which modules which are connected compartments can be decoupled and can interact amoung themselves
+as opposed to different communities
 
+He flash: runaway fusion of helium in low mass stars when gravitational pressure contrats the helium core into degenerate matter,
+thermal instability here results in a rapid increase in helium fusion
 
+grey atmosphere approximation: an approximation by eddington which assumes: radiative equilibrium, constant absorption 
+co-efficient (how easily something can be penetrated by energy matter or waves)
 --------------------------------------------------------------------------------------------------------
 
 The paper is outlined as follows:
@@ -150,7 +156,11 @@ atm module: computes the temperature and pressure near the surface of the star u
 ------------------------------------------diffusion---------------------------------------------------------
 Diffusion module: calculates diffusion by solving the burger equation (du/dt +udu/dx = vd2u/dx2, for a given field u(x,t)
 with a diffusion co-efficient v) elements within the star are put into classes in accordance to atomic mass, 
-each class has a representative element that all elements within the class are modelled to behave similarly to
+each class has a representative element (defined by the user) that all elements within the class are modelled to behave 
+similarly to, at least when it comes to diffusion
+
+DEGENERACY IS LIFTED WHEN THE THERMAL PRESSURE EXCEEDS THE DEGENERACY PRESSURE
+
 
 
 
