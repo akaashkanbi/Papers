@@ -30,8 +30,25 @@ star formation rate (SFR) = v*signma^k where v is efficiency = star formation ra
 sigma^k is the gas surface mass density
 this model neglects gas temperature, magnetic field and viscousity
 
-low intermediate mass stars produce H He C N O, low mass stars dont contribute to the chemical evolution of a galaxy
+NOTE: low intermediate mass stars produce H He C N O, low mass stars dont contribute to the chemical evolution of a galaxy
 because their lifetime is longer than hubble time
+
+Also required for a galactic model is consideration of inflowing/outflowing gas: outflowing gas proportional to the 
+stellar birthrate, inflowing are assumed to be constant or decreasing exponentially, it serves to dilute the metal content 
+of the star
+
+the instanteous recycling approximation (IRA) is also used: stars>1 solar mass die instanteously, stars<1 solar mass live forever
+useful in computing the abundances of elements that form quickly in core collapse like O, but a poor approximaation for 
+elements that form over the long term like Fe
+
+-------------------------------------------------------------------------------
+The simple model: assumes IRA, no inflow or outflow of gas, IMF is constant in time, primodial gas, mixing between ISM and 
+newly produced gas is instanteous
+
+effective yield: stellar yield when assuming the simple model, always larger than true yield
+
+primary element: element that originated from H or He
+secondary element: element that was originally in the star at birth, proportional to Z^2 (metalicity)
 
 
 
