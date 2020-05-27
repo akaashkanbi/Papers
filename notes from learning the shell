@@ -54,8 +54,26 @@ to find a word, type /<word>
 to see a complete list of shit you can do in less, type h
 
 to see what kind a file something is: type file <file name> !you must be in the same directory to do this
+---------------------------------lesson4--------------------------------------------------
 
 mounting: when you attach a physical device to the tree of directories. devices are treated like files
+mount points: are points in the directory tree where devices are mounted
+
+------------------------------------lesson 5----------------------------------------------
+manipulating files
+
+wildcards: 
+
+i*.dat   specifies any files that begin with i and end with .dat in the current working directory
+
+big??     specifies any files that begin with the word big followed by 2 characters
+
+
+
+copying files or directories: cp
+moving or renaming files or directories: mv
+removing files or directories: rm
+creating directories: mkdir
 
 
 
