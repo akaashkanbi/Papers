@@ -68,12 +68,59 @@ i*.dat   specifies any files that begin with i and end with .dat in the current 
 
 big??     specifies any files that begin with the word big followed by 2 characters
 
+[abq]*  specifies any files that begin with a, b or q
 
+[[:alnum:]]* specifies any files that start with alpha numeric characters  
 
-copying files or directories: cp
+[[:digit:]]*    "       "    "     "    "    "    number characters
+
+[[:alpha:]]*   "       "    "     "    "    "    alphabetic characters
+
+[!abq]*        "       "    "     "   dont start with a b or q
+
+[[:upper:]]* for upper case letters
+
+[[:lower:]] for lower case letters
+-------------------------------
+copies the first declared file or directory, and pastes it into the second declared file or directory: cp 
+(add -r for directories)
+fore files, this command overwrites the old file (second declared one) and just sticks the new stuff in
+if the 2nd declared file or directory doesnt exist, then it makes it
+for directories, it does NOT overwrite the directory
+
+can copy a file into a directory
+
+when using cp, file and directory must be in the same directory
+
+interactive option: -i, basically notifies you that you will be overwriting something, but doesnt allow for the option of 
+not overwriting
+--------------------------
 moving or renaming files or directories: mv
+if you have in your arguments 2 files, the first declared file is renamed to the second. if the second file name is  file 
+that already exists, then its contents are replaced with that of the first declared file, and the 1st declared file no 
+longer exists.
+
+for directories: if you have 2 directories, mv will move dir1 to dir2 if dir2 does not exist
+error message will come up if dir1 doesnt exist
+
+
+use of mv in moving files into directories: can move multiple files into a directory all in the same line
+mv file1 file2 file3 dir1
+--------------------------
 removing files or directories: rm
+--------------------------
 creating directories: mkdir
+
+----------------------------------------lesson 6--------------------------------------------------
+different types of commands:
+
+executable programs: programs written in a language that does shit when you run them
+shell builtins: built in commands within bash that allows you to do shit like
+alias: commands you make yourself to do stuff 
+shell functions: not sure, add details later 
+
+finding out the type of command something is: type <enter command here>
+
 
 
 
