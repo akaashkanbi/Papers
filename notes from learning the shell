@@ -4,6 +4,7 @@ http://linuxcommand.org/lc3_lts0020.php
 ------------------------------------------lesson 1 +2--------------------------------------------------------
 GUI- graphical user interface----like settings 
 CLI- command line interface------like terminal
+mutually exclusive: cnnot occur at the same time
 
 unix has many shells: bash (Borne Again SHell), ksh, tcsh, zsh
 
@@ -39,7 +40,7 @@ command is stuff like ls, options are the extra optional shit you can do with th
 want the command to operate on 
 
 listing files in long format: ls -l
-listing files in a certain directory: ls /<absolute pathname of directory>
+listing files in a certain directory: ls <directory>
 listing hidden files and normal files and directories in long format: ls -la (can be -al too, order doesnt matter)
 
 long format: - indicates file, d indicates directory. the next set of character indicates the permissions (read write etc)
@@ -120,6 +121,29 @@ alias: commands you make yourself to do stuff
 shell functions: not sure, add details later 
 
 finding out the type of command something is: type <enter command here>
+
+which command: dont really know what this is 
+
+finding out more informationa about a certain shell builtin: help <command name> 
+example---> help cd. !any verticle lines | means these two options are mutually exclusive 
+
+finding out more information about a certain executable program: <command name> --help 
+doesnt work for all executable programs
+
+an alternative for executable programs is: man <command>
+
+if you find a .gz file, it means its compressed using gzip program, and to view it, use zless instea of less
+
+----------------------------------------lesson 7------------------------------------------------------
+
+standard input/output: input/output from the keyboard/terminal respectively
+
+how to change the output of a command to write into a file: <command> > file.dat
+example: ls > file.dat !this will print out the list of files and directories onto the file "file.dat" but will overwrite
+each time 
+to get rid of the overwrite behaviour: replace > with >>
+(memonic: command OUTput > because it points outwards, command INput < because it points inwards)
+
 
 
 
