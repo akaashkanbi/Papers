@@ -154,5 +154,9 @@ pipelines: allow you to make the standard output of a command the stand input of
 pipeline i.e ls -l | less !this makes a list in long form of all things in the directory and outputs them into a less format
 
 
-du command?
+show all directories (even those inside other directories within the working directory) and how much space they consume: du <directory name>
+can omit the directory name, and the command will just work on the working directory
+
+editing files: nano <filename> !to save file, crtl + O + enter, to exit, ctrl + X
+
 
