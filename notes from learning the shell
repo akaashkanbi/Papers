@@ -144,9 +144,15 @@ each time
 to get rid of the overwrite behaviour: replace > with >>
 (memonic: command OUTput > because it points outwards, command INput < because it points inwards)
 
+ordering lines in alphabetical order (numbers occupy first line): sort !can use this for sorting files too
+
+listing files in alphabetical order: ls -t
+
+printing the first 10 lines of a file: head <filename>
+
+pipelines: allow you to make the standard output of a command the stand input of the subsequent command seperated by a
+pipeline i.e ls -l | less !this makes a list in long form of all things in the directory and outputs them into a less format
 
 
-
-
-
+du command?
 
