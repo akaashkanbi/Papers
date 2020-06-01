@@ -1,4 +1,5 @@
 shell is a program that takes commands from the keyboard and makes the operating system do them
+DOS file: a file made in the DOS operating system
 http://linuxcommand.org/lc3_lts0020.php
 
 ------------------------------------------lesson 1 +2--------------------------------------------------------
@@ -150,7 +151,7 @@ listing files in alphabetical order: ls -t
 
 printing the first 10 lines of a file: head <filename>
 
-pipelines: allow you to make the standard output of a command the stand input of the subsequent command seperated by a
+pipelines: allow you to make the standard output of a command the standard input of the subsequent command seperated by a
 pipeline i.e ls -l | less !this makes a list in long form of all things in the directory and outputs them into a less format
 
 
@@ -158,5 +159,15 @@ show all directories (even those inside other directories within the working dir
 can omit the directory name, and the command will just work on the working directory
 
 editing files: nano <filename> !to save file, crtl + O + enter, to exit, ctrl + X
+
+sorting things from largest to smallest: sort -nr
+
+how to examine a file, look for a pattern of characters, and print the lines which contain them: grep <pattern> <file.dat>
+
+how to create a file on terminal and edit it on standard output: cat > file.dat !press ctrl D to save the file
+
+how to clear a file: fmt <filename>
+
+
 
 
