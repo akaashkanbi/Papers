@@ -168,6 +168,20 @@ how to create a file on terminal and edit it on standard output: cat > file.dat 
 
 how to clear a file: fmt <filename>
 
+tarfiles: see end of page lesson 7
+
+-----------------------------------------------lesson 8------------------------------------------
+expansion: anything you type in the terminal is expanded before the shell reads it, and so can do different shit depending
+on what commands youved typed in conjunction
+
+echo command: prints the argument as standard output, also can be used with wildcards and * to print files as standard ouput
+when using * w/ echo, * can be thought of as something thats missing which you want to find
+
+finding directories: /*/*, or /home/akaash/* will print all directories with a pathname /home/akaash/something else
+
+the ~: expands into the home directory i.e echo ~/documents gives akaash/home/documents
+if you want the home directory of another user, then use echo ~<username> i.e echo ~milan
+
 
 
 
