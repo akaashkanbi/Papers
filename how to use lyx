@@ -5,3 +5,14 @@ you can replace a pattern of characters by checking "edit" tab and finding repla
 
 
 new paragraph: press enter
+
+sections: highlight section title, look in the long horizontal box underneath file, select section
+if you dont want it numbered, look for section*
+
+subsection: the title for this is smallee than the section
+
+making lists: look for the list button. if you want multiple paragraphs in one list, use ctrl + enter 
+
+to add code< highlight the stuff and select lyx code
+
+got up to 2.2.3
