@@ -1,0 +1,26 @@
+https://arxiv.org/pdf/1808.06883.pdf
+
+TERMINOLOGY:
+
+Algol: a three star system
+
+
+
+---------------------------------------------------------------------------------
+abstract
+
+we cant model binaries well becuase they are so complex. we observe stars and deduce the parameters needed to build
+simulations, then run them and see whats different. then we use this data to figure out any unknown physics
+ ---------------------------------------------------------------------------------
+introduction
+ 
+ some stars only form in binary systems, and some process require a secondary to happen i.e supernovae kilarnovae 
+ 
+ some things that are uncertain in binary systems: mass transfer and loss, along with associated angular momentum redistribution
+ 
+ stars take long time to simulate, population of stars even longer, and binary population really long-more stars and more parameters
+ to deal with 
+ 
+ triple star systems modelled like binary systems
+ 
+ 
