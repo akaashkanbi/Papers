@@ -2,6 +2,17 @@ shell is a program that takes commands from the keyboard and makes the operating
 DOS file: a file made in the DOS operating system
 http://linuxcommand.org/lc3_lts0020.php
 
+    Blue: Directory
+
+    Green: Executable or recognized data file
+
+    Sky Blue: Linked file
+
+    Yellow with black background: Device
+
+    Pink: Graphic image file
+
+    Red: Archive file
 ------------------------------------------lesson 1 +2--------------------------------------------------------
 GUI- graphical user interface----like settings 
 CLI- command line interface------like terminal
@@ -123,7 +134,7 @@ shell functions: not sure, add details later
 
 finding out the type of command something is: type <enter command here>
 
-which command: dont really know what this is 
+which command: supposed to tell you the location of an executable, but when I tried it, nothing happens 
 
 finding out more informationa about a certain shell builtin: help <command name> 
 example---> help cd. !any verticle lines | means these two options are mutually exclusive 
@@ -178,9 +189,24 @@ echo command: prints the argument as standard output, also can be used with wild
 when using * w/ echo, * can be thought of as something thats missing which you want to find
 
 finding directories: /*/*, or /home/akaash/* will print all directories with a pathname /home/akaash/something else
+need to have the / at the beginning 
 
 the ~: expands into the home directory i.e echo ~/documents gives akaash/home/documents
 if you want the home directory of another user, then use echo ~<username> i.e echo ~milan
+
+using the terminal as a CALCULATOR: echo $((expression)) !i.e echo $((2+2)), you need the echo because this is an expansion
+can also do $(((5*3)+2)) as long as there are two brackets at the beginning and the end. ONLY INTEGERS, division will always
+result in rounding 
+
+OPERATIONS: +/*-% (% is modulo, 5%2 is the remainder of 5/2)
+
+BRACE EXPANSION: echo preamble{1,2,3}postscript results in preamble1postscript preambl2postscript preamble3postscript
+!beahaves similarly to bracket expansion
+
+variables= chunks of data, referred to as env. to print all variables, printenv
+
+
+
 
 
 
