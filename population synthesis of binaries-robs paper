@@ -4,6 +4,14 @@ TERMINOLOGY:
 
 Algol: a three star system
 
+thermally pulsing AGB: a stage in the AGB phase, helium is fused in the E-AGB phase, when this runs out you go to the TP-AGB
+stage where hydrogen is burned, making helium. helium builds up and suddenly ignites- helium shell flash
+
+synthetic stellar evolution code: when the model run time for each star is <= 1 second
+detailed stellar evolution code: "run time is > 1 second
+
+
+
 
 
 ---------------------------------------------------------------------------------
@@ -23,6 +31,24 @@ introduction
  
  triple star systems modelled like binary systems
  
- up to the start of page 4
+ other shit you need to model in binary systems: "In binary stars we must include the strength of tidal interaction, mass and
+ angular momentum transfer efficiencies,mass and angular momentum accretion efficiencies, an algorithm to describe when
+ mass transfer is stable, companion induced enhanced mass loss, gravitational radiation angular momentum loss,
+ nova explosions and interaction with the ejected material, discs and associated jets, winds and orbital interactions, 
+ and supernovakicks"
+ 
+ kroupa mass function: gets crap when M> 10 solar masses, and a little uncertain when M is below this
+ 
+ things that binary_c takes into account and how: Binary-star interaction is included mostly according to Hurley et al. (2002)
+ but with improvementsto mass transfer by Roche-lobe overflow (Claeys et al., 2014), Wind-Roche-Lobe-overflow
+ (Abate et al., 2013, 2015) , tides (Siess et al., 2013), rejuvenation (de Mink et al., 2013;Schneider et al., 2014a) 
+ and supernovae (Boubert et al., 2017b,a). Binary-star nucleosyn-thesis includes accretion and thermohaline mixing 
+ (Stancliffe et al., 2007; Izzard et al.,2017) as well as explosions such as thermonuclear novae (Jos ́e and Hernanz, 1998)
+ and Ia supernovae (Claeys et al., 2014). 
+ 
+ detailed stellar evolution code often crash when detailing with WD but synethetic code can handle them better.
+ 
+ 
+ up to the start of page 8
  
  
