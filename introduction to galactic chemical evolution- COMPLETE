@@ -1,3 +1,5 @@
+FINISHED
+
 period of high number of stars being born. results in all or most of the gas reserviors being depleted on a timescale much
 shorter than the age of the galaxy
 
@@ -49,6 +51,15 @@ effective yield: stellar yield when assuming the simple model, always larger tha
 
 primary element: element that originated from H or He
 secondary element: element that was originally in the star at birth, proportional to Z^2 (metalicity)
+
+romano et al (2010) try to simulate the milk way. got some of the chemical abundanes right, and other wrong. this happened
+because he didnt consider than some elements are locked in stars for really long times, and supernova Ia events are the cause
+of much of the iron distribution in a galaxy, but they occur not that often in a single galaxy.
+
+CC SN dont contribute much to the iron content of a galaxy
+
+Li problem: descrepency between the amount of primodial Li produced in the BB and how much we see around us. 
+
 
 
 
