@@ -16,3 +16,11 @@ making lists: look for the list button. if you want multiple paragraphs in one l
 to add code< highlight the stuff and select lyx code
 
 got up to 2.2.3
+
+bibliography: select the bibliolograhpy section, every paragraph you write on there will be a new reference, and will have a 
+highlighted box
+click on the box, will open up a menu showing key, and label. key is how you will find this particular citation in the citation
+menu, label is what will appear on the document i.e pan et al(2012). to reference something, go to insert menu, find citation, 
+this will open up a menu where your keys are displayed. select the key you want by pressing add, you can add multiple citations
+for a single piece. 
+if you put nothing in the label section, then only a number will appear
