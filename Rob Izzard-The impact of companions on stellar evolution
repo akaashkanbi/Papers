@@ -8,6 +8,22 @@ oscillation spectrum:?
 
 stellar multiplicity: the number of stars
 
+Tidal circularization: tidal forces that cause orbits to become less eccentric
+
+Algols: systems where a secondary becomes more massive than the primary due to roche lobe overflow. can happen when the primary
+expands out during RG phase.
+
+entrain: incorporate and sweep along in its flow.
+
+polars: WD + low mass companion. WD has strong magnetic field which accelerates the accretion stream straight onto the WD 
+as opposed to a disk forming
+
+contact binaries: when binary stars are so close to each other that they are in contact or their envelopes have merged to 
+form a common envelope 
+
+overcontact binary: common envelope formation within a binary
+
+
 massive stars: >8 SM
 intermediatary mass stars: 1.5-5 SM
 low mass <0.5 SM
@@ -23,3 +39,47 @@ separation
 
 more massive stars are in binary systems than intermediatary and low mass stars
 
+relatively few Solar-like binaries interact with their companions compared to more massive stars 
+that are not only in binaries more often, but that have systematically closer companions.
+
+equal mass binaries less common
+
+mass ratio distribution: f(q)=q^gamma, where q=M2/m1, m1>m2---constitutent masses within the binary system
+
+something not considered in binary codes are the effects of planetary masses on stellar evolution, could pollute the surface 
+of the star, resulting in deviations in expected metallicity when comparing simulations to observation.
+though no planets have been observed falling into a star, this doesnt suggest that it never happens.
+
+Recent studies, e.g., Tokovinin & Kiyaeva (2016), suggest the number of stars, N, with a given eccentricity, e, is
+dN/de=1.2e+0.4, at least for intermediate mass systems
+
+a study was done on M35, found that no binaries and single stars were evenly distributed, suggests that formation of them 
+doesnt require specific environments
+
+younger stars are spherical and compact, but as they ge and expand, the companion distorts the evelope through gravity such
+that youre left with something elliptical shaped, called eplisodial variables
+
+roche lobe can shrink if the star loses angular momentum
+any mass lying outside the roche lobe can flow onto the companion- robe lobe overflow
+when the donor is in MS(core hydrogen burning), mass transfer is called type A
+when donor is burning hydrogen in a shell, its called type B 
+after helium ignition, type C 
+
+conservative mass transfer: when no mass is lost during accretion
+non conservative: mass is accreted, some is lost 
+
+common envelope formation: one of the stars fills roche lobe, and then some
+other star tries to accrete it, as it does, its roche lobe also fills up leading to common envelope formation
+causes orbit to decay inwards
+
+wind roche lobe overflow: wind from mass losing stars are given off and accreted unto the accretor, even in cases where the 
+roche lobe is not filled 
+
+detached binaries: binaries where neither roche lobe is filled
+semi-detached binary: one has filled roche lobe , or they are in contact when roche lobe is filled
+
+  
+  
+  
+  
+  
