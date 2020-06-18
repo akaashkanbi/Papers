@@ -205,9 +205,8 @@ BRACE EXPANSION: echo preamble{1,2,3}postscript results in preamble1postscript p
 
 variables= chunks of data, referred to as env. to print all variables, printenv
 
-
-
-
+finding files within a directory:
+grep -r "../../.." 1.3M_ms_high_Z
 
 
 
