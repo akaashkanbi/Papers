@@ -128,15 +128,15 @@ creating directories: mkdir
 different types of commands:
 
 executable programs: programs written in a language that does shit when you run them
-shell builtins: built in commands within bash that allows you to do shit like
-alias: commands you make yourself to do stuff 
+shell builtins: built in commands within bash that allows you to do shit like cd
+alias: commands you can make yourself to do stuff 
 shell functions: not sure, add details later 
 
 finding out the type of command something is: type <enter command here>
 
 which command: supposed to tell you the location of an executable, but when I tried it, nothing happens 
 
-finding out more informationa about a certain shell builtin: help <command name> 
+finding out more information about a certain shell builtin: help <command name> 
 example---> help cd. !any verticle lines | means these two options are mutually exclusive 
 
 finding out more information about a certain executable program: <command name> --help 
@@ -185,7 +185,8 @@ tarfiles: see end of page lesson 7
 expansion: anything you type in the terminal is expanded before the shell reads it, and so can do different shit depending
 on what commands youved typed in conjunction
 
-echo command: prints the argument as standard output, also can be used with wildcards and * to print files as standard ouput
+echo command: prints the argument as standard output,
+also can be used with wildcards and * to print files as standard ouput
 when using * w/ echo, * can be thought of as something thats missing which you want to find
 
 finding directories: /*/*, or /home/akaash/* will print all directories with a pathname /home/akaash/something else
@@ -200,13 +201,17 @@ result in rounding
 
 OPERATIONS: +/*-% (% is modulo, 5%2 is the remainder of 5/2)
 
-BRACE EXPANSION: echo preamble{1,2,3}postscript results in preamble1postscript preambl2postscript preamble3postscript
-!beahaves similarly to bracket expansion
+BRACE EXPANSION: echo preamble{1,2,3}postscript !results in preamble1postscript preambl2postscript preamble3postscript
+!behaves similarly to bracket expansion
 
 variables= chunks of data, referred to as env. to print all variables, printenv
 
-finding files within a directory:
-grep -r "../../.." 1.3M_ms_high_Z
+finding lines within a directory:
+grep -r "../../.." <pathname of directory>
+
+.. also means continue to i.e mkdir {2007..2009} makes directories 2007 2008 2009
+
+type <filename> tells you where the file is!!!
 
 
 
