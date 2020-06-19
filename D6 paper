@@ -1,5 +1,6 @@
 https://iopscience.iop.org/article/10.3847/1538-4357/aae9ee/pdf
 
+questions: what is star ID?
 TERMINOLOGY
 
 
@@ -107,8 +108,15 @@ density can be decreased if deflagration occurs beforehand---dont quite understa
 delay detonation model has C0 extended across different speeds, D6 model predicts CO only at two different speeds
 but they have similarities in the speeds of the other elements created
 
-ejecta propagates in the opposite direction as survivor 
+origin of the low speed C+0 is due to the companion origin stream, high speed C+O comes from the exploded material from the 
+primary
 
+ejecta propagates in the opposite direction as survivor, primary is expected to be moving at 1,100 km/s, secondary at 1700
+m/s. 
+
+surviving companion moves at a constant velocity of 1700 from time of explosion to t=50 seconds
+
+All elements have higher velocity components when viewed in the direction of the ejecta 
 got up to page 6 RHS paragraph 
 
 
