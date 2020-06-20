@@ -13,6 +13,8 @@ http://linuxcommand.org/lc3_lts0020.php
     Pink: Graphic image file
 
     Red: Archive file
+    
+    pip install <package> !type this in the interactive shell!!
 ------------------------------------------lesson 1 +2--------------------------------------------------------
 GUI- graphical user interface----like settings 
 CLI- command line interface------like terminal
@@ -211,7 +213,17 @@ grep -r "../../.." <pathname of directory>
 
 .. also means continue to i.e mkdir {2007..2009} makes directories 2007 2008 2009
 
-type <filename> tells you where the file is!!!
+type <filename> tells you where the excutable/program is located, use this to add executables to your path
+
+double quotes "" anything inside these are treated as strings except $ expansions, \, and ` (back quotes, underneath esc)
+this can be used to deal with files with a space inside it ex. ls -l "file name.dat" will not separate into two agruments 
 
 
+$USER=outputs user name 
 
+$(cal) ouputs a calander of this month put in double quotes and you get it printed nicely on the screen
+
+echo can be used to show you what a character represents i.e. echo ~ spits out the home directory's pathname
+
+
+got up to single quotes
