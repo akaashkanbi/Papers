@@ -35,11 +35,11 @@ truth
 gravitational settling: jargon for particles moving in accordance to gravity, gravitational settling and radiative levitation
 are opposing phenomena
 
-radiative levitation: when the abundances of heavier elements is higher than expected from spectroscopy of the photosphere.
+radiative levitation: when the abundances of heavier elements is higher than expected.
 happens when partially ionised heavy elements absorb photons from the core becuase they have larger absorption cross sections
-the photon imparts the particle(s) with momentum causing them to rise to the photosphere
+the photon imparts the particle(s) with momentum causing them to rise to the photosphere.
 
-modularity: the degree to which modules which are connected compartments can be decoupled and can interact amoung themselves
+modularity: the degree to which modules (which are connected compartments) can be decoupled and can interact amoung themselves
 as opposed to different communities
 
 He flash: runaway fusion of helium in low mass stars when gravitational pressure contrats the helium core into degenerate matter,
@@ -161,6 +161,11 @@ similarly to, at least when it comes to diffusion
 
 DEGENERACY IS LIFTED WHEN THE THERMAL PRESSURE EXCEEDS THE DEGENERACY PRESSURE
 
+Explicit methods calculate the state of a system at a later time from the state of the system at the current time, 
+while implicit methods find a solution by solving an equation involving both the current state of the system and the 
+later one.
+
+ALL MODULES MENTIONED THUS FAR ARE IN THE MESA STAR LIBRARY
 
 
 
