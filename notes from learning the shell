@@ -218,6 +218,10 @@ type <filename> tells you where the excutable/program is located, use this to ad
 double quotes "" anything inside these are treated as strings except $ expansions, \, and ` (back quotes, underneath esc)
 this can be used to deal with files with a space inside it ex. ls -l "file name.dat" will not separate into two agruments 
 
+Single quotes means that all expansions are ignored, including $ \ `
+
+ESCAPE CHARACTER: to just ignore the expansion of a single term, prefix it with a \ i.e echo "i hate life, give me \$100 dollar" 
+note this cannot be used inside single quotes ------------useful in renaming terribly named files
 
 $USER=outputs user name 
 
@@ -225,5 +229,14 @@ $(cal) ouputs a calander of this month put in double quotes and you get it print
 
 echo can be used to show you what a character represents i.e. echo ~ spits out the home directory's pathname
 
+to get the \ to appear in a filename or argument, type it twice \\
 
-got up to single quotes
+to print a directory in reverse: ls -r
+
+How to make the terminal go "beep" ---echo -e "\a" !-e allows escape characters to be used, \a makes the beep sound
+\n makes a new line, but you must enable escapes by using -e
+
+---------------------------------------------lesson 9:permissions----------------------------
+
+
+
