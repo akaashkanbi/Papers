@@ -116,7 +116,7 @@ types of opacity tables: type 1: fixed metal distributions and work in the range
 there is blending occuring between the zones dominated by different opacity tables- perhaps a source of error when we 
 are close to the boundaries?
 
-the kap module allows you to choose between type 1 or type 2 tables (but you need to specify the intial C and 0),
+the kap module: allows you to choose between type 1 or type 2 tables (but you need to specify the intial C and 0),
 and choose between linear or cubic interpolation
 
 opacity is not that important for convection
@@ -167,11 +167,22 @@ later one.
 
 ALL MODULES MENTIONED THUS FAR ARE IN THE MESA STAR LIBRARY
 
+--------------------------------starting models -----------------------------
 
-
-
-                         
-
+two ways: 1 by using a loading in something from a previous run, or something provided by MESA
+          2 by starting from pre-main sequence. assumes polytope n=1.5 to start. need to specify temp( must be lower
+          than temp required for pp burning), luminosity, uniform composition, mass 
+   
+ photos vs saved models: photos can be used to restart a model perfectly from where it was left off but it restricted because
+ the version of mesa needs to be the same. saved models dont contain all of the information but it does work at any and all time
+ 
+ MESA star splits star into cells, numbered from 1 to whatever starting from the surface
+ 
+ retrys happen when a stiff differentil equation isnt converging, and so a smaller time step is used. if this fails 
+ you have the "backup" happening. this is when MESA goes back one time step, uses a smaller time step to get to the previous 
+ time step (where there was no proper convergence) 
+ if this fails too, then MESA will keep trying backups with smaller and smaller time steps until it succeeds. if it doesnt
+ and the time step is smaller than some minimum amount, then it will terminate simulation
 
 
 
