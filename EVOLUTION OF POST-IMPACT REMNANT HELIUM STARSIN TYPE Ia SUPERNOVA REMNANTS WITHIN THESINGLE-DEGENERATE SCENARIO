@@ -1,17 +1,19 @@
 https://arxiv.org/pdf/1303.1228.pdf
 
+
+
 TERMINOLOGY
-helium star: O or B star with strong He lines,weak H lines because outer envelope has been stripped off by strong stellar winds from
-the interior of the star -----MS star
+helium star: O or B star with strong He absorption lines,weak H lines because outer envelope has been stripped off by strong stellar winds from
+the interior of the star, or mass transfer to the binary --- it is a in the helium main sequence
 
 PIRS: post impact reminant star
 
-subdwarf: star that is between the main sequence and white dward regions on HR diagrams
+subdwarf: star that is between the main sequence and white dwarf regions on HR diagrams
 
 M-dwarf: M type main sequence star
 
 shock: a disturbance that propagates faster than sound speed in the medium in question, results in dicontinuities in pressure 
-density and temperature
+density and temperature (P, p T)
 
 subgiant: star that is brighter than the MS star (of same spectral class) but not as bright as giant stars 
 
@@ -59,7 +61,7 @@ Introduction notes:
 previous studies have been done on MS and sub giant stars- conclusion is that as energy is deposited into the companions
 they will be hotter for some time BUT
 they didnt do hydrodynamical simulations and so didnt properly calculate shock compression of stellar interior
-or how far in the energy from the supernova was deposited into the companion star
+or how far in the energy from the supernova was deposited
 
 What do hydrodynamical simulations achieve?
 they take into account symmetry breaking effects of orbital motion, rotation of the star, and RLOF which can complicate 
@@ -89,7 +91,8 @@ the end)
 massloss done in 1D 
 
 HeWDa had a uniform composition distribution before explosion to ensure they didnt get negative entropy gradients or negative
-composition gradients-----why is negative entropy gradients bad? means a decrease in entropy with increasing radius
+composition gradients-----why is negative entropy gradients bad? means a decrease in entropy with increasing radius, and entropy is a measure of heat energy
+per unit of temperature 
 --------------------------------
 
 DURING EXPLOSION
@@ -102,7 +105,7 @@ W7 model of the SN was used first so that comparisons could be made with other s
 
 AFTER EXPLOSION
 
-assumed star was in radiative equilibrium
+assumed star was in radiative equilibrium, fair considering that stars of this type have a radiative core with the envelope removed.
 
 initial luminosity profile found by using the temperature gradient, substituting fux for luminosity
 relaxation in MESA because the photospheric luminosity and effective temperature were rough?? before evoution was modelled
