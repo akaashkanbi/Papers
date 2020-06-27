@@ -5,7 +5,7 @@ written 2012
 
 TERMINOLOGY
 
-hydrogen cataclysmic variables scenario: 
+!hydrogen cataclysmic variables scenario: 
 
 supersoft channel: SN1a with either MS or subgiant companion
 
@@ -14,7 +14,7 @@ specific internal energy, and pressure. Also guarantees thermodynamic consistenc
 
 inviscid: a fluid that isn't thick
 
-thermodynamic consistency: when the entropy and temperature are well defined by an EOS - particularly important when
+thermodynamic consistency: when the S, T are well defined by an EOS - particularly important when
 hydrodynamics is coupled with other fields of physics
 (for more info, look in mphys folder, article titled "some comments on thermodynamic consistency")
 
@@ -23,7 +23,7 @@ Modified mixing length theory: allows for simulation of convection to vary depen
 
 zero age main sequence: a star that has just reached the MS 
 
-break up velocity: when the centrifugal force at the surface of a star is equal to the grvitational force, a stability rotating star 
+break up velocity: rotation velocity when the centrifugal force at the surface of a star is equal to the grvitational force. a stability rotating star 
 must have an angular velocity lower than this value
 
 
@@ -40,11 +40,11 @@ of SN1572
 WHAT DID THEY FIND OUT?
 
 the closest model had the same effective temperature as tycho G and also managed to match its slow rotation speed
-but the simulations luminosity and radius are twice as large
+but the simulations luminosity and radius are twice as large (L,R x2)
 
 found that the stars expand post impact and continue to expand for about 1000 years before contracting
 
-and that the evolution of the str depends on how much energy it absorbed and how deep the energy penetrated into the star
+and that the evolution of the str depends on how much energy it absorbed and energy deposition
 
 all stars modelled started out with a metallicity of Z=0.02
 
@@ -54,13 +54,14 @@ all stars modelled started out with a metallicity of Z=0.02
 -----------------------------------------------------------------------------------
 introduction notes:
 they know there is a mass transfer phase for at least some of the SN1a explosions because there exists some 
-pre-supernova circumstellar medium within the supernovae reminants
+pre-supernova circumstellar medium within the supernovae reminants !!!can use for my paper
 
 tycho G- high proper motion, low rotation speed <7.5km/s. SD scenario predicts high proper motion but you would
 expect companion star to also have high rotational speed due to fast rotating orbits prior to explosion
 
 But this is only the case when you dont consider how the star evolves post supernova
 
+another way to distinguish between DD or SD is to see if there is circumstellar medium around the event- evidence of a mass transfer phase
 
 --------------------------------------------------------------------------------------
 some interesting notes on the optically thick wind accretion model (OTWA model):
@@ -74,6 +75,8 @@ NUMERICAL METHODS
 EOS used is the helmholtz equation of state
 
 The mixing-length theory of convection used is the modified MLT by Henyey et al. (1965)
+
+W7 Model used which looks like the best model we have for simulating SNe Ia, detailed nucelosynthesis calculations 
 
 As with the paper on He star companion, the mass loss phase is constant to simplify things such that only the end result after 
 mass loss finishes matters--final result matches with what is predicted by Hachisu et al
@@ -104,7 +107,7 @@ because it has the smallest mass, it takes longer for it to radiate away the the
 Question on thermal timescale: its the timescale that tells us how long it would take for us to see a change in the energy,
 if thats on the scale of Myrs how can we hope to see any change in a star?
 
-h
+page 14 end
 
 
 
