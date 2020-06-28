@@ -31,6 +31,8 @@ delayed-detonation model: slow burning in the CO core before detonation occurs, 
 elements
 paper on delayed detonation model:http://adsabs.harvard.edu/full/1991A%26A...245..114K
 
+shockwave nucleosynthesis: how a lot of elements in stars are expected to be created
+
 --------------------------------------------------------------------------------------------------
 SOME NOTES ON SPH
 the particles of the system become the "mesh" without actually having a mesh
@@ -79,11 +81,12 @@ ignition
 
 obitial plane is in x-y, angular momentum vector in the z axis. origin is barycenter
 
-the ejecta was found to have a spherically symmetric shape
+the ejecta was found to have a spherically symmetric shape, did they not consider an offcenter explosion?
 --------------------------------------------------------------------------------------------
 RESULTS
 
 elements within the ejecta: Fe, chromium, Ni56, Si and S, O, C,Ar, Ca, and Ti, and He in order from the inside of the ejecta
+these are all elements that can occur due to photo ejection processes from alpha particle capture processes.
 
 He detonation first, spreads around the shell, shockwave seperates helium from C0 core, shockwave converges causing CO detonation,
 and eventually thermonuclear explosion
