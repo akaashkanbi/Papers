@@ -33,6 +33,8 @@ paper on delayed detonation model:http://adsabs.harvard.edu/full/1991A%26A...245
 
 shockwave nucleosynthesis: how a lot of elements in stars are expected to be created
 
+photodissociation is photodisintegration for compound, disintegration occurs in nuclei
+
 --------------------------------------------------------------------------------------------------
 SOME NOTES ON SPH
 the particles of the system become the "mesh" without actually having a mesh
@@ -117,11 +119,29 @@ primary
 ejecta propagates in the opposite direction as survivor, primary is expected to be moving at 1,100 km/s, secondary at 1700
 m/s. 
 
+
+----------------the surviving companion-----------------------------
+
 surviving companion moves at a constant velocity of 1700 from time of explosion to t=50 seconds
 
-All elements have higher velocity components when viewed in the direction of the ejecta 
-got up to page 6 RHS paragraph 
+All elements have higher velocity components when viewed in the direction of the eject
 
+surviving companion loses some mass from interactions with the ejecta, but also captures some material, mainly Nickel56 (0.03 SM) and some helium.
+mass post explosion = 0.6SM
+
+Ni 56 and He captured because they have low velocity.
+C+0 detonation forms nickel in rapid nuclear reactions, which also form helium as a byproduct of photodissociation 
+
+they found that the internal structure of the surviving WD is virtually undamaged when comparing density, temperature, and entropy profiles.
+it also keeps its C0 core
+
+external structure is changed by the ejecta, the survivor gains an envelope consisting of Ni C 0 He in decending order of mass amounts
+it previously had an envelope of C+O but now gained some nickel and He. Envelope is hot
+
+-----------the exploding primary--------------------------------
+In the discussion, they omit any details of Ca Ti Ar because they are formed due to helium detonation. In their model, they only used a thick He
+shell because it would allow the explosion to occur more easily. In reality when observing something like this, the helium shell can be much thinner 
+and so you wouldnt expect to get the same signatures of Ca Ti Ar
 
 
 
