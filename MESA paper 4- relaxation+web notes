@@ -1,0 +1,21 @@
+https://arxiv.org/pdf/1710.08424.pdf page 54
+
+module allows for the input of specified entropy angular momentum and composition profiles, relaxes the star into hydrostatic equil
+
+relaxation occurs through pseudo evolution where composition evolution from nuclear burning, mixing, and angular momentum transport is suppressed whilst 
+another parameter incrementally evolves to a desired amount 
+
+relaxation reproduces a model in 1D at an accuracy of 0.1%
+
+If you stop a run (control c) you can restart it again by typing ./re x<model number> which is the photo number
+
+saving a model: 
+save_model_when_terminate = .true.
+save_model_filename = '15M_at_TAMS.mod'  !add these lines to the inlist file
+
+loading a model:
+load_saved_model = .true.
+saved_model_name = '15M_at_TAMS.mod'  !this line is the model you want to load
+$MESA_DIR/star/defaults
+check defaults for any parameters you want to add shit like relaxation parameters, found here: $MESA_DIR/star/defaults
+$MESA_DIR/star/defaults
