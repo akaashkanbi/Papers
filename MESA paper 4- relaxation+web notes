@@ -19,3 +19,44 @@ saved_model_name = '15M_at_TAMS.mod'  !this line is the model you want to load
 $MESA_DIR/star/defaults
 check defaults for any parameters you want to add shit like relaxation parameters, found here: $MESA_DIR/star/defaults
 $MESA_DIR/star/defaults
+
+relaxing entropy profiles-----------------------------------------------------------------
+! `relax_entropy_filename` holds the desired entropy profile information
+         ! file format for relax entropy
+
+         !     1st line: num_points
+         !     then 1 line for for each point where define desired entropy
+         !     xq entropy
+         !     xq = fraction of xmstar exterior to the point
+         !     where xmstar = mstar - M_center
+         !     entropy = specific entropy in units of erg/gr/K
+
+relaxing composition profile-------------------------------------------------------------------------
+relax_initial_composition
+         !### num_steps_to_relax_composition
+         !### relax_composition_filename
+         ! relax composition from current to specified over number of steps.
+         ! `relax_composition_filename` holds the desired composition profile information
+         ! file format for relax composition
+
+         !     1st line: num_points num_species
+         !     then 1 line for for each point where define desired composition
+         !     xq xa(1) ... xa(num_species)
+         !     xq = fraction of xmstar exterior to the point
+         !     where xmstar = mstar - M_center
+         !     the interpolation routines require that the xq values which
+         !     appear in your file must be monotonically increasing
+         !     xa(i) = mass fraction of i'th species
+
+         ! NOTE: it is up to you to ensure that the current net isotopes match
+         ! the species in the composition file.
+         ! You can set `show_net_species_info = .true.` to check the isotopes in the net.
+
+         ! If timescale_for_relax_composition is negative, then the model will be adjusted
+         ! such that in num_steps_to_relax_composition the desired composition is obtained.
+         ! Otherwise, the abundance of each element will be updated each step as
+  new_xa = lambda*target_xa + (1-lambda)*current_xa
+         ! where lambda = dt/timescale_for_relax_composition. In this way, the target composition
+         ! is reached when dt>=timescale_for_relax_composition.
+         
+  it looks like I only need entropy and chemical abundance profiles
