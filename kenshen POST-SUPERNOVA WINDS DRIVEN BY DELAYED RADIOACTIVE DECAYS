@@ -1,0 +1,46 @@
+
+questions
+
+terminology
+
+
+
+abstract------------------------
+ni to co is electron capture process, creates winds which were simulated
+conflicts of wind with 2011fe but uncertainties in calculations mean that wd donors cant be completely ruled out
+
+
+introduction-------------------------------
+ni produced is ionised but doesnt stay ionised for long as it expands and cools, becoming partially ionised so 
+that k shell electron captures can occur resulting in decay processes
+
+but this is supressed if the ni56 remains ionised 
+
+bound Ni56 masses of 0.006, 0.03, and 0.08 Solar masses for 0.3, 0.6, and 0.9 solar mass WD companions, respectively.
+but these are upper limit estimates as work done on the ejecta is ignored. but including the work done, the eject has more
+energy and so there will be less captured material.
+
+in SNE Iax you have a helium donor star and the deflagration doesnt result in the primary star becoming completely unbound 
+it survives as a "zombie"
+smaller ejecta mass and less ni56 produced (and so the light curve evolves much more quickly)
+
+this ni56 will be gravitationally bound in an envelope, unable to expand outwards and so remains ionised 
+this means that we will have a wind that last for long time
+
+the models considered in the paper are 0.9+0.1 SM (core +envelope) and 0.5SM+0.0SM and Ni56mass fractions within the envelopes of 0.2 and 0.1. anything else inside the 
+envelope is assumed to be Fe
+
+paper simulated a star with 1.2 sm and same entropy as what a Iax might have and found that due to removal of 
+mass from the center due to relatively incomplete explosion which decreases the gravitational potential energy and thereby 
+decreasing density, there will be no convective carbon core burning which might durastically change the stars evolution and lift 
+degeneracy.
+
+therefore star is treated as a inert degenerate core with hot envelope
+
+rough approximations to justify simplistic entropy profiles but it is noted that a more relatistic entropy profile could be 
+bases for future work
+
+
+
+
+stopped at page 3
