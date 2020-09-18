@@ -91,6 +91,11 @@ SCVH is used for Z<=0.4
 
 when Z>0.4, HELM and PC are used, and are used whenever things are outside the ranges of the MESA table
 
+
+
+
+
+
 there is blending that occurs between the zones described by the different EOS's to preserve thermodynamic consistency
 
 HELM and PC assume complete ionisation of substance
@@ -184,7 +189,31 @@ two ways: 1 by using a loading in something from a previous run, or something pr
  if this fails too, then MESA will keep trying backups with smaller and smaller time steps until it succeeds. if it doesnt
  and the time step is smaller than some minimum amount, then it will terminate simulation
 
+!------------------------------------------------------------------
+pgstar
 
+win_flag lines open up a new pgstar plot window to see on the fly changes, file_flag saves the plot in png
+the different profile plots you can have are:
 
+    TRho_Profile – current model in T-Rho plane
+    Summary_Profile – various profile properties
+    Summary_Burn – current model T, rho, eps burning, and eps neutrinos
+    Abundance – current model abundance profiles
+    Power – current model nuclear power profiles
+    Mixing – current model mixing diffusion coefficients
+    Dynamo – current model dynamo magnetic field info
+    Mode_Prop – asteroseimology mode propagation diagram
+
+you can also have history plots:
+
+    Kipp – “Kippenhann” history of mixing, burning, and more
+    Summary_History – various history properties
+    TRho – history of central temperature vs. density
+    HR – history of log_L vs. log_Teff
+    logg_Teff – history of logg vs. Teff
+    logg_logT – history of logg vs. log_Teff
+    dPg_dnu – delta_Pg vs. delta_nu (for asteroseismology)
+    
+    
 
 got up to page 37
