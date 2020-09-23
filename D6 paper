@@ -8,6 +8,8 @@ D6 model: dynamically driven double degenerate double detonation model, also cal
 essentially shock compression of He in a system that doesnt need to have super chandrasekhar mass, and not much helium 0.01 SM
 helium ignition causes carbon to ignite
 
+difference between d6 and Iax is that Iax's primary survives and in the D6 scenario is necessary for their to be a white companion
+
 hypervelocity: velocity >= 1,000 km/s
 
 instability: when a perturbation starts to grow, it will continue to grow 
@@ -33,7 +35,7 @@ paper on delayed detonation model:http://adsabs.harvard.edu/full/1991A%26A...245
 
 shockwave nucleosynthesis: how a lot of elements in stars are expected to be created
 
-photodissociation is photodisintegration for compound, disintegration occurs in nuclei
+photodissociation is photodisintegration for chemical compounds, disintegration occurs in nuclei
 
 Si I means neutral silicon. Si II means singly ionised silicon, S III means doubly ionised Si and so on
 
@@ -86,7 +88,8 @@ ignition
 
 obitial plane is in x-y, angular momentum vector in the z axis. origin is barycenter
 
-the ejecta was found to have a spherically symmetric shape, did they not consider an offcenter explosion?
+the ejecta was found to have a spherically symmetric shape, did they not consider an offcenter explosion? such an event might not be realistic as 
+the He detonation is expected to converge at the center
 --------------------------------------------------------------------------------------------
 RESULTS
 
@@ -112,6 +115,8 @@ a detonation propagating through high density CO create only Ni-56 and none of t
 but if the density is lowered, you can have creation of intermediatary elements : https://arxiv.org/pdf/astro-ph/0409598.pdf
 
 density can be decreased if deflagration occurs beforehand---dont quite understand the physics behind this
+this is because deflagration can lift degeneracy given that its slowly burning and increasing the thermal energy past the internal energy
+due to degeneracy
 
 delay detonation model has C0 extended across different speeds, D6 model predicts CO only at two different speeds
 but they have similarities in the speeds of the other elements created
@@ -159,7 +164,8 @@ Also, higher mass WD have smaller He shells, so it wouldnt get in the way all th
 section finishes off by talking about SNe Ia with either of blue- or redshifted Fe-group emissions can be also explained by the D6model.
 
 -------the surviving companion--------------------------
-Nickel gives off radiation in the form of post-SN winds which--got up to page 10
+Nickel on WD surfaces gives off radiation in the form of post-SN winds which is relavant to my WD as it has a hot nickel envelope
+--got up to page 10
 
 
 
