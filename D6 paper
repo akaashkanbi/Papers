@@ -138,7 +138,7 @@ surviving companion loses some mass from interactions with the ejecta, but also 
 mass post explosion = 0.6SM
 
 Ni 56 and He captured because they have low velocity.
-C+0 detonation forms nickel in rapid nuclear reactions, which also form helium as a byproduct of photodissociation 
+C+0 detonation forms nickel in rapid nuclear reactions, which also form helium as a byproduct of photodissociation in the center
 
 they found that the internal structure of the surviving WD is virtually undamaged when comparing density, temperature, and entropy profiles.
 it also keeps its C0 core
@@ -165,7 +165,27 @@ section finishes off by talking about SNe Ia with either of blue- or redshifted 
 
 -------the surviving companion--------------------------
 Nickel on WD surfaces gives off radiation in the form of post-SN winds which is relavant to my WD as it has a hot nickel envelope
---got up to page 10
+
+study by kenshen had nickel mass much less bound than nomotos simulation
+
+they considered the effect of accretion of instellar medium and interstellar objects and found the it would have a neglible effect on the surface composition
+found that roughly 10**13g of matter would be accreted. Assumed the wd would be travelling through the galatic disk
+this was calculated by considering bondi accretion which is accretion at a rate assuming that the escape velocity is approximately at sound speed and 
+that we have a spherical compact object travelling through the interstellar medium at some specified velocity
+
+Helium doesnt experience gravitational settling/sedimentation so one might expect to see this on the surface, but this is not indicative of a d6 surviving wd
+this is because normal wd form helium on their surface anyway, and the surface needs to be really hot for He detection anyway. as the wd cools this means that 
+helium might not be seen
+
+D6 explosions should have oxygen emission lines in their nebula phase spectra, some supernoave like SN2010lp andiPTF14atg have this line.
+
+as d6 predicts a survivor, d6 explosions expect for fe group elements to have either blue shifted or red shifted emission lines in the nebular phase 
+as the ejecta follows conservation of momentum
+
+description of the d6 light curve: at an early time, its light curve may show a UV pulse due to radioactive nuclei yielded by the He detonation. 
+At the maximum-light time, its spectra indicate Si absorption lines similarly to ordinary SNe Ia. 
+
+COMPLETED
 
 
 
