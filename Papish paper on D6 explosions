@@ -1,3 +1,5 @@
+ SR=solar radius 
+ SM= solar mass
 this paper, differing from the nomoto paper, uses a he wd donor instead of a CO wd with helium shell around it
 https://academic.oup.com/mnras/article/449/1/942/1328496
 !-----------------------------------------------------------------------------------------------------------------
@@ -24,9 +26,25 @@ there is overlap between scenarios, double detonation could occur in core degene
 
 shockwave induced by ejecta companion interaction leads to He ignition in the companion wd. the study investigates whether this is via adiabatic compression
 or by shock heating
+the other things it tries to answer are:
+what the ejecta looks like after it sweeps through the interstellar medium?
+how much helium does the ejecta take away from the donor star?
+as carbon burning is enhanced by the presence of helium, does mixing between donor and ejecta lead to vigorious burning?
 
-the other things it tries to answer are what the ejecta looks like after it sweeps through the interstellar medium
-how much helium does the ejecta take away from the donor star
+they looked at two wd of mass 0.43 SM and seperation 0.02 SR from the exploding wd (not random numbers but from  Guillochon et al. (2010), Raskin et al. (2012),
+ and Pakmor et al. (2013)) and 0.2 SM separated at a distance of 0.08 SR
+ 
+mass transfer must be unstable for powerful enough ignition to occur
+
+ways in which He WD or the CO ejecta might be ignited post explosion:
+shock compression of helium due to ram pressure as it moves through ejecta
+SHock compression of C0 in ejecta---conditions are hot enough for this but the dynamical outflow timescale is much shorter than the burning timescale
+so no burning happens---???????
+carbon ignition when helium mixing happens. enhances carbon burning but the study didnt have mixing deep enough so there was no ignition through this 
+mechanism
+
+
+
 
 
 
