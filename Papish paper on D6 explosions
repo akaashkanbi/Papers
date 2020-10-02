@@ -16,7 +16,7 @@ there is much more screeening which reduces the coloumb barrier. it looks like H
 fraction of the CO wd that cause SNeIA have a really small H mass fraction. Also, looks like this occurs at sub chandrasekhar mass so it can only account for a few
 Sne Ia gven that most Ia happen at super chandra mass 
 
-
+photon diffusion: essentially when photons dont get absorbed but instead are scattered by the particles constituting the material
 
 !-----------------------------------------------------------------------------------------------------------------
 
@@ -39,10 +39,31 @@ mass transfer must be unstable for powerful enough ignition to occur
 ways in which He WD or the CO ejecta might be ignited post explosion:
 shock compression of helium due to ram pressure as it moves through ejecta
 SHock compression of C0 in ejecta---conditions are hot enough for this but the dynamical outflow timescale is much shorter than the burning timescale
-so no burning happens---???????
+so no burning happens---??????? what does this mean?
 carbon ignition when helium mixing happens. enhances carbon burning but the study didnt have mixing deep enough so there was no ignition through this 
 mechanism
+----------------------------------------------------------------------------------------------------
+Numerical simulations:
 
+they use a helmholtz eos simulation was done in 2d cyclindrical co-ordinates
+neglected the orbital velocity of the companion, assumed zero velocity accelerated by the explosion and ejecta. but the authors mention that 
+because the orbital velocity is so small, it doesnt have any afffect on the final conclusions
+
+nuclear network used was approx19 from flash (timmes 1999), neglected all shock burning too
+
+ran two simulations, each with different resolutions to see if they was a difference
+
+both wd were built using mesa and were cold (not burning) prior to the explosion
+
+distribution of energy: initially internal energy is 0.5KE 0.5 thermal
+ejecta expands causing thermal energy to drop and KE to increase such that 5/6 of the internal energy is in the form of KE and the remaining is thermal energy
+
+ran simulation with ejecta composed entirely of nickel, and other where the ejecta is composed entirely of CO, found that conclusions are 
+independent of composition (what????:/)
+
+neglect radiative cooling and photon diffusion as" it is not a problem here" why is it not a problem?
+
+ended on page 6
 
 
 
