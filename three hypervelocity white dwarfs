@@ -2,6 +2,8 @@ https://iopscience.iop.org/article/10.3847/1538-4357/aad55b/pdf
 
 terminology
 
+spectral line blanketing: when lines all mold together to form a continuum where no specific elements can be identified 
+
 
 !----------------------------------------------------------
 abstract
@@ -10,3 +12,20 @@ they looked at a bunch of high velocity stars seen in the Gaia DR2 data and foun
 in pre SN systems
 
 
+!intro
+
+models that require growth of the primary first have convective core carbon burning causing deflagration and then detonation. this is the case for DD and SD scenario
+
+no conclusive companion has been seen for the sds. for the d6 scenario some guy looked for blue white dwarfs and found none, this might be because the wd have 
+cooled and so they would look different and more like typical wd.
+
+in sn 1ax there are surviving wd primary but the velocity of these are much lower, less than hyper velocity
+
+mass transfer can either be stable or unstable, when mass ratio between secondary and primary >0.2 we have no accretion disk formation which means angular momentum 
+is transferred inefficiently. generally having more angular momentum contributes to stability so we have unstable mass transfer in this case.
+if the mass transfer was super eddington then it would be unstable anyway.
+
+if the mass transfer was stable, the acculimation of hydrogen and helium layer on the primary would lead to nova like events and so the mass transfer would become 
+unstable. therefore it is assumed that any DD system that produces a sne ia undergoes unstable mass transfer.
+
+in the ordinary DD we have unstable mass transfer to form a merger reminant which exploded 10**4 yrs later, but in the D6 model the explosion occurs before merging
