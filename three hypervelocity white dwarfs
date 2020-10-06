@@ -4,7 +4,10 @@ terminology
 
 spectral line blanketing: when lines all mold together to form a continuum where no specific elements can be identified 
 
+tidal locking: when bodies are orbiting each other and one or both show the other or each other the same face
 
+tidal heating: when a body disapates some of its rotational and orbital energy through heat. the heat is directed towards its own surface and interior and so
+the internal energy of the body increases.
 !----------------------------------------------------------
 abstract
 
@@ -21,6 +24,8 @@ cooled and so they would look different and more like typical wd.
 
 in sn 1ax there are surviving wd primary but the velocity of these are much lower, less than hyper velocity
 
+section2, motivation and properties of surviving companions-----------------------------------------------------------------------
+
 mass transfer can either be stable or unstable, when mass ratio between secondary and primary >0.2 we have no accretion disk formation which means angular momentum 
 is transferred inefficiently. generally having more angular momentum contributes to stability so we have unstable mass transfer in this case.
 if the mass transfer was super eddington then it would be unstable anyway.
@@ -28,4 +33,22 @@ if the mass transfer was super eddington then it would be unstable anyway.
 if the mass transfer was stable, the acculimation of hydrogen and helium layer on the primary would lead to nova like events and so the mass transfer would become 
 unstable. therefore it is assumed that any DD system that produces a sne ia undergoes unstable mass transfer.
 
-in the ordinary DD we have unstable mass transfer to form a merger reminant which exploded 10**4 yrs later, but in the D6 model the explosion occurs before merging
+in the ordinary DD we have unstable mass transfer to form a merger reminant which exploded 10**4 yrs later, but in the D6 model 
+the explosion occurs before merger
+
+surviving companion flys away at orbital velocity just before explosion
+
+tidal heating can increase the companion wd luminosity by a lot, but it doesnt go very deep within the star and so energy is lost over a shorter timescale
+the same argument can be applied to energy given to the companion during the supernova explosion through companion ejecta interaction.
+
+study by shen and schwab found that the nickel (has high entropy) deposited on the companion wd surface will be fully ionised and so it doesnt decay via standard bound electron 
+captures until some recombination occurs during cooling---this can affect the luminosity of the white dwarf.
+
+
+stopped on page 4.
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+
